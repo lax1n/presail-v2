@@ -5,7 +5,14 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        kraftig: '\'SoehneKraftig\', sans',
+        buch: '\'SoehneBuch\', sans',
+        leicht: '\'SoehneLeicht\', sans',
+        mono: '\'SoehneMonoLeicht\', sans',
+      },
+    },
   },
   plugins: [],
 }

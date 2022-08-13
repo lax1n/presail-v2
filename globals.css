@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'SoehneKraftig';
+    font-weight: normal;
+    src: url('./public/fonts/soehne-kraftig.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SoehneBuch';
+    font-weight: normal;
+    src: url('./public/fonts/soehne-buch.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SoehneLeicht';
+    font-weight: normal;
+    src: url('./public/fonts/soehne-leicht.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'SoehneMonoLeicht';
+    font-weight: normal;
+    src: url('./public/fonts/soehne-mono-leicht.woff2') format('woff2');
+}
