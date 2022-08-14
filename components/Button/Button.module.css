@@ -1,0 +1,10 @@
+.btn {
+    @apply bg-gunMetal
+    hover:underline
+    active:bg-eerieBlack
+    text-cultured
+    text-xs
+    font-buch
+    w-[8.5rem]
+    h-10;
+}

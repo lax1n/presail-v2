@@ -18,6 +18,8 @@ module.exports = {
         orangeSoda: '#FC5F42',
         ultramarineBlue: '#4758FD',
         brightGray: '#ECECEC',
+        cultured: '#F8F8F8',
+        eerieBlack: '#191B1E'
       },
     },
   },

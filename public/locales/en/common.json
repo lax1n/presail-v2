@@ -2,5 +2,8 @@
   "heroHeading": {
     "title": "A single source of truth for managing all web 3.0 ventures.",
     "subtitle": "Efficiently set up and organize your token distribution and investment."
+  },
+  "button": {
+    "text": "Schedule demo"
   }
 }
