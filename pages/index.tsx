@@ -5,6 +5,7 @@ import { useTranslation } from 'next-i18next'
 import {serverSideTranslations} from 'next-i18next/serverSideTranslations'
 import Section from '../components/Section/Section'
 import Button from '../components/Button/Button'
+import TertiaryButtonGrid from '../components/TertiaryButtonGrid/TertiaryButtonGrid'
 
 
 const Home: NextPage = () => {
@@ -16,10 +17,13 @@ const Home: NextPage = () => {
         subtitle={t('heroHeading.subtitle')}
         className={'mt-20 mb-12'}
       />
+
       <Button
         text={t('button.text')}
-        className={'mb-4'}
+        className={'mb-12'}
       />
+
+      <TertiaryButtonGrid/>
     </Section>
   )
 }
