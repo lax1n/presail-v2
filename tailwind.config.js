@@ -12,6 +12,13 @@ module.exports = {
         leicht: '\'SoehneLeicht\', sans',
         mono: '\'SoehneMonoLeicht\', sans',
       },
+      colors: {
+        gunMetal: '#2F3239',
+        graniteGray: '#676767',
+        orangeSoda: '#FC5F42',
+        ultramarineBlue: '#4758FD',
+        brightGray: '#ECECEC',
+      },
     },
   },
   plugins: [],

@@ -1,0 +1,24 @@
+.wrapper {
+    @apply w-[26rem];
+}
+
+.title {
+    @apply font-kraftig
+    text-gunMetal
+    text-3xl
+    pb-[0.938rem];
+}
+
+.subtitle {
+    @apply font-buch
+    text-graniteGray
+    text-lg
+    pt-[0.938rem];
+}
+
+.line {
+    @apply bg-gradient-to-r
+    from-orangeSoda
+    to-ultramarineBlue
+    h-px;
+}
