@@ -1,5 +1,7 @@
 .wrapper {
-    @apply w-[26rem];
+    @apply w-[26rem]
+    ml-[2rem]
+    sm:ml-[7.5rem];
 }
 
 .title {

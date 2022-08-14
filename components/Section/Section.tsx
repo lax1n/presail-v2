@@ -16,10 +16,8 @@ const Section: React.FC<SectionProps> = (props) => {
   const color = colorScheme === 'light' ? 'bg-brightGray': 'bg-gunMetal'
 
   return (
-    <div className={color}>
-      <div className={classNames(className, styles.section)}>
-        {children}
-      </div>
+    <div className={classNames(className, styles.section, color)}>
+      {children}
     </div>
   )
 }

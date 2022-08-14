@@ -6,5 +6,7 @@
     text-xs
     font-buch
     w-[8.5rem]
-    h-10;
+    h-10
+    ml-[2rem]
+    sm:ml-[7.5rem];
 }
