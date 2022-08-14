@@ -18,9 +18,18 @@ module.exports = {
         orangeSoda: '#FC5F42',
         ultramarineBlue: '#4758FD',
         brightGray: '#ECECEC',
+        granite: '#646464',
         cultured: '#F8F8F8',
-        eerieBlack: '#191B1E'
+        eerieBlack: '#191B1E',
       },
+      keyframes: {
+        move: {
+          '0%, 100%': { transform: 'translateX(4px)' },
+        }
+      },
+      animation: {
+        move: 'move 2s ease-in-out',
+      }
     },
   },
   plugins: [],

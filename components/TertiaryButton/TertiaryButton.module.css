@@ -1,0 +1,11 @@
+.btn {
+    @apply hover:underline text-gunMetal text-xs font-buch w-[10.5rem] h-6 inline-flex items-center;
+}
+
+.num {
+    @apply font-mono items-start mr-2 ml-1;
+}
+
+.arrow {
+    @apply absolute px-36 active:animate-move;
+}
