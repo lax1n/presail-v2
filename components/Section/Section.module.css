@@ -1,7 +1,8 @@
 .section {
-    @apply max-w-5xl
-    mx-auto
-    ml-[7.5rem]
+    @apply
+    w-[33rem]
+    xs:w-full
     flex
-    flex-col;
+    flex-col
+    ;
 }
