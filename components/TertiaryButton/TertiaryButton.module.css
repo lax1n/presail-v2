@@ -7,5 +7,5 @@
 }
 
 .arrow {
-    @apply absolute px-36 active:animate-move;
+    @apply absolute px-36 active:animate-moveRight;
 }
