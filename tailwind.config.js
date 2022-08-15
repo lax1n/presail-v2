@@ -24,6 +24,7 @@ module.exports = {
         orangeSoda: '#FC5F42',
         ultramarineBlue: '#4758FD',
         brightGray: '#ECECEC',
+        lightGray: '#D3D3D3',
         granite: '#646464',
         cultured: '#F8F8F8',
         eerieBlack: '#191B1E',

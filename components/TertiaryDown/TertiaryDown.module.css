@@ -1,7 +1,6 @@
 .wrapper {
     @apply mt-8
     hover:underline
-    text-gunMetal
     text-xs
     font-buch
     w-[10.5rem]
@@ -11,4 +10,12 @@
 
 .link {
     @apply px-1;
+}
+
+.light {
+    @apply text-gunMetal;
+}
+
+.dark {
+    @apply text-cultured;
 }
