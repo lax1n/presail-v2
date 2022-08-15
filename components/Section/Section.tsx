@@ -13,10 +13,13 @@ interface SectionProps {
 const Section: React.FC<SectionProps> = (props) => {
   const { children, className, colorScheme='light' } = props
 
-  const color = colorScheme === 'light' ? 'bg-brightGray': 'bg-gunMetal'
+  const sectionStyle = classNames(styles.section, {
+    [styles.light]: colorScheme === 'light',
+    [styles.dark]: colorScheme === 'dark',
+  })
 
   return (
-    <div className={classNames(className, styles.section, color)}>
+    <div className={classNames(className, sectionStyle)}>
       {children}
     </div>
   )

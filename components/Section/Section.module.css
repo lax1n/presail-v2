@@ -3,6 +3,13 @@
     w-[33rem]
     xs:w-full
     flex
-    flex-col
-    ;
+    flex-col;
+}
+
+.light {
+    @apply bg-brightGray;
+}
+
+.dark {
+    @apply bg-gunMetal;
 }
