@@ -5,7 +5,8 @@
     font-buch
     w-[10.5rem]
     inline-flex
-    items-center;
+    items-center
+    mb-6;
 }
 
 .link {
