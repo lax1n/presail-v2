@@ -17,7 +17,7 @@ const TertiaryButtonGrid = () => {
       {tertiaryButtonData.map((item)=>{
         return (
           <div key={item[0]}>
-            <TertiaryButton num={item[0]} text={item[1]} className={'mb-2'}/>
+            <TertiaryButton num={item[0]} description={item[1]} className={'mb-2'}/>
           </div>
         )
       })}

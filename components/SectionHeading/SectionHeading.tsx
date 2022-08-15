@@ -11,11 +11,12 @@ interface SectionHeadingProps {
   paragraph1: string
   paragraph2?: string
   buttonLink?: string
+  id: string
   colorScheme?: colorScheme
 }
 
 const SectionHeading: React.FC<SectionHeadingProps> = (props) => {
-  const { num, header, title, paragraph1, paragraph2, buttonLink, colorScheme='light' } = props
+  const { num, header, title, paragraph1, paragraph2, buttonLink, id, colorScheme='light' } = props
 
   const numStyle = classNames(styles.num, {
     [styles.headerLight]: colorScheme === 'light',
@@ -37,8 +38,10 @@ const SectionHeading: React.FC<SectionHeadingProps> = (props) => {
     [styles.paragraphDark]: colorScheme === 'dark',
   })
 
+  const nextId = '0' + (parseInt(id) + 1).toString() // example: id = '01', nextId = '02'
+
   return (
-    <div className={styles.width}>
+    <div className={styles.width} id={id}>
       <div className={numStyle}>
         {num}
       </div>
@@ -53,11 +56,15 @@ const SectionHeading: React.FC<SectionHeadingProps> = (props) => {
         <div className={paragraphStyle}>
           {paragraph1}
         </div>
-        <br/>
-        <div className={paragraphStyle}>
-          {paragraph2}
-        </div>
-        <TertiaryDown link={buttonLink} colorScheme={colorScheme}/>
+        {paragraph2 &&
+          <>
+            <br/>
+            <div className={paragraphStyle}>
+              {paragraph2}
+            </div>
+          </>
+        }
+        <TertiaryDown link={buttonLink} id={nextId} colorScheme={colorScheme}/>
       </div>
     </div>
   )

@@ -2,7 +2,8 @@
     @apply flex
     w-[33rem]
     ml-[2rem]
-    sm:ml-[7.5rem];
+    sm:ml-[7.5rem]
+    mt-20;
 }
 .wrapper {
     @apply flex-initial

@@ -5,5 +5,56 @@
   },
   "button": {
     "text": "Schedule demo"
+  },
+  "section1": {
+    "num": "01",
+    "header": "Deals management",
+    "title": "Set up and keep all deals in one place, track deal status and update project information.",
+    "paragraph1": "All deals in one place. Manage everything that is going on, at a high level - or narrow in on a specific user. Import pre-existing deals, or add spreadsheets to running deals.",
+    "paragraph2": "Become a VC superhero",
+    "buttonLink": "Collect contributions",
+    "colorScheme": "dark"
+  },
+  "section2": {
+    "num": "02",
+    "header": "Collect contributions",
+    "title": "Simplify the contribution process for you and your investors without any manual work.",
+    "paragraph1": "Presail automatically reconciles every investor, project, sheet, and form. Configure access at a tier-based, whitelist, or public level. Set up multiple pools with different rules, fees & min/max limits.",
+    "paragraph2": "Split SAFT deals are supported with multiple token prices. Enable KYC / AML at choice. And create a custom fundraising page with your specific requirements - be it terms, deal info, and brand.",
+    "buttonLink": "Asset management",
+    "colorScheme": "light"
+  },
+  "section3": {
+    "num": "03",
+    "header": "Asset manager",
+    "title": "Manage your investors and their assets with ease.",
+    "paragraph1": "See cap and token tables, manage and edit wallet and user information. Presail acts as a single source of truth. You can enable a partial or full refund, even OTC trades. All of it is logged and stored on Presail, guaranteeing you accurate data and a complete overview.",
+    "buttonLink": "Investor portal",
+    "colorScheme": "light"
+  },
+  "section4": {
+    "num": "04",
+    "header": "Investor portal",
+    "title": "Spend less time on support. Let your investors view their investments, vesting progress and project updates.",
+    "paragraph1": "Say goodbye to replying to hundreds of Telegram and Discord support messages.",
+    "paragraph2": "Your clients will have a complete overview. They get to see data on P&L and ROI at a deal and holistic level. While always being up-to-date on when they received token distributions and how far along the vesting schedule they are.",
+    "buttonLink":"Token vesting",
+    "colorScheme":"dark"
+  },
+  "section5": {
+    "num": "05",
+    "header": "Token vesting",
+    "title": "Securely distribute tokens on a vesting schedule. Say goodbye to spreadsheets.",
+    "paragraph1": "Token allocations get calculated and distributed within Presail. Get visibility of the vesting progress and the number of tokens sent to your investors — no need to use spreadsheets or manual distribution tools again.",
+    "buttonLink":"AlloSwapᵀᴹ / OTC",
+    "colorScheme":"dark"
+  },
+  "section6": {
+    "num": "06",
+    "header": "AlloSwapᵀᴹ / OTC",
+    "title": "Enable allocation swaps between investors. Facilitate OTC trades, and know that your cap table is 100% up-to-date.",
+    "paragraph1": "Enable investors to partially or fully trade their allocations. Presail ensures the cap table is updated and accurate. You can view past trades to understand how the cap table got to what it is today.",
+    "buttonLink":"Partners and clients",
+    "colorScheme":"light"
   }
 }
