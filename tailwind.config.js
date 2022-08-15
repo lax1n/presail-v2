@@ -29,12 +29,16 @@ module.exports = {
         eerieBlack: '#191B1E',
       },
       keyframes: {
-        move: {
+        moveRight: {
           '0%, 100%': { transform: 'translateX(4px)' },
-        }
+        },
+        moveDown: {
+          '0%, 100%': { transform: 'translateY(4px)' },
+        },
       },
       animation: {
-        move: 'move 2s ease-in-out',
+        moveRight: 'moveRight 2s ease-in-out',
+        moveDown: 'moveDown 2s ease-in-out',
       }
     },
   },
