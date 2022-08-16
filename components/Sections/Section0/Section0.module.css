@@ -1,0 +1,12 @@
+.sectionGrid {
+    @apply grid
+    grid-cols-2;
+}
+
+.logo {
+    @apply items-start
+    ml-[2rem]
+    sm:ml-[7.5rem]
+    mt-[9.563rem]
+    mb-12;
+}
