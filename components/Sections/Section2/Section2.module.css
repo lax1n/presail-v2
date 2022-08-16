@@ -1,0 +1,20 @@
+.sectionGrid {
+    @apply grid
+    grid-cols-2;
+}
+
+.collectContributions {
+    @apply relative
+    w-[23.063rem]
+    h-[44.188rem]
+    -mt-[9.5rem];
+}
+
+.chart {
+    @apply relative
+    w-[60.313rem]
+    h-[28.75rem]
+    mt-[5.5rem]
+    ml-[7.5rem]
+    sm:ml-[13rem];
+}

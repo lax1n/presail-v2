@@ -6,7 +6,7 @@
   "button": {
     "text": "Schedule demo"
   },
-  "section1": {
+  "dealsManagement": {
     "num": "01",
     "header": "Deals management",
     "title": "Set up and keep all deals in one place, track deal status and update project information.",
@@ -15,7 +15,7 @@
     "buttonLink": "Collect contributions",
     "colorScheme": "dark"
   },
-  "section2": {
+  "collectContributions": {
     "num": "02",
     "header": "Collect contributions",
     "title": "Simplify the contribution process for you and your investors without any manual work.",
@@ -24,7 +24,7 @@
     "buttonLink": "Asset management",
     "colorScheme": "light"
   },
-  "section3": {
+  "assetManager": {
     "num": "03",
     "header": "Asset manager",
     "title": "Manage your investors and their assets with ease.",
@@ -32,7 +32,7 @@
     "buttonLink": "Investor portal",
     "colorScheme": "light"
   },
-  "section4": {
+  "investorPortal": {
     "num": "04",
     "header": "Investor portal",
     "title": "Spend less time on support. Let your investors view their investments, vesting progress and project updates.",
@@ -41,7 +41,7 @@
     "buttonLink":"Token vesting",
     "colorScheme":"dark"
   },
-  "section5": {
+  "tokenVesting": {
     "num": "05",
     "header": "Token vesting",
     "title": "Securely distribute tokens on a vesting schedule. Say goodbye to spreadsheets.",
@@ -49,7 +49,7 @@
     "buttonLink":"AlloSwapᵀᴹ / OTC",
     "colorScheme":"dark"
   },
-  "section6": {
+  "alloSwap": {
     "num": "06",
     "header": "AlloSwapᵀᴹ / OTC",
     "title": "Enable allocation swaps between investors. Facilitate OTC trades, and know that your cap table is 100% up-to-date.",

@@ -1,0 +1,11 @@
+.sectionGrid {
+    @apply grid
+    grid-cols-2;
+}
+
+.investorCard {
+    @apply relative
+    w-[21.75rem]
+    h-[25.75rem]
+    -mt-[18.5rem];
+}

@@ -1,0 +1,11 @@
+.sectionGrid {
+    @apply grid
+    grid-cols-2;
+}
+
+.allDeals {
+    @apply relative
+    w-[33.313rem]
+    h-[20.563rem]
+    -mt-[6.5rem];
+}
