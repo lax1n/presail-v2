@@ -9,6 +9,14 @@ const Section3 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
+      <div className={styles.investorManager}>
+        <Image
+          alt={'Presail Investor Manager'}
+          src='/images/06InvestorManager.webp'
+          layout={'fill'}
+          objectFit={'contain'}
+        />
+      </div>
       <div className={styles.sectionGrid}>
         <SectionHeading
           num={t('investorPortal.num')}
@@ -29,6 +37,7 @@ const Section3 = () => {
           />
         </div>
       </div>
+      <div className={'mb-[6.375rem]'}/>
     </Section>
   )
 }

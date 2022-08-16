@@ -7,5 +7,13 @@
     @apply relative
     w-[21.75rem]
     h-[25.75rem]
-    -mt-[18.5rem];
+    -mt-[30rem];
+}
+
+.investorManager {
+    @apply relative
+    w-[32.5rem]
+    h-[19.25rem]
+    -mt-[7.5rem]
+    ml-[13rem];
 }

@@ -1,0 +1,7 @@
+.investorPortal {
+    @apply relative
+    w-[35.625rem]
+    h-[28.063rem]
+    -mt-[19.875rem]
+    ml-[42rem];
+}
