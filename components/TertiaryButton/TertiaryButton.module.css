@@ -1,5 +1,5 @@
 .btn {
-    @apply hover:underline text-gunMetal text-xs font-buch w-[10.5rem] h-6 inline-flex items-center;
+    @apply hover:underline text-gunMetal text-xs font-buch w-[10.5rem] h-6 inline-flex items-center cursor-pointer;
 }
 
 .num {
