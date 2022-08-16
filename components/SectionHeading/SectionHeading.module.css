@@ -3,7 +3,8 @@
     w-[33rem]
     ml-[2rem]
     sm:ml-[7.5rem]
-    mt-20;
+    mt-20
+    antialiased;
 }
 .wrapper {
     @apply flex-initial

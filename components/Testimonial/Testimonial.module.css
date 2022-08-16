@@ -2,7 +2,8 @@
     @apply w-[48rem]
     ml-[18rem]
     mt-[6rem]
-    mb-[10rem];
+    mb-[10rem]
+    antialiased;
 }
 
 .quoteLeft {
