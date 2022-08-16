@@ -1,0 +1,59 @@
+.wrapper {
+    @apply w-[48rem]
+    ml-[18rem]
+    mt-[12.875rem]
+    mb-[10rem];
+}
+
+.quoteLeft {
+    @apply absolute
+    mt-6;
+}
+
+.quoteRight {
+    @apply mt-[7.5rem];
+}
+
+.header {
+    @apply font-buch
+    text-xs
+    text-graniteGray
+    uppercase
+    mb-2;
+}
+
+.testimonial {
+    @apply w-[44.5rem]
+    leading-none
+    font-buch
+    font-extrabold
+    text-transparent
+    text-[2.5rem]
+    bg-clip-text
+    bg-gradient-to-r
+    from-ultramarineBlue
+    to-orangeSoda
+    mb-3.5;
+}
+
+.line {
+    @apply h-px
+    mb-6
+    mt-[0.875rem]
+    bg-graniteGray;
+}
+
+.items {
+    @apply inline-flex
+    items-baseline;
+}
+
+.name {
+    @apply font-buch
+    text-graniteGray
+    text-base;
+}
+
+.logo {
+    @apply ml-[33.5rem];
+}
