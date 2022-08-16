@@ -6,15 +6,15 @@ import {useTranslation} from 'next-i18next'
 const Section5 = () => {
   const { t } = useTranslation('common')
   return (
-    <Section>
+    <Section colorScheme={'dark'}>
       <SectionHeading
-        num={t('alloSwap.num')}
-        header={t('alloSwap.header')}
-        title={t('alloSwap.title')}
-        paragraph1={t('alloSwap.paragraph1')}
-        buttonLink={t('alloSwap.buttonLink')}
-        colorScheme={t('alloSwap.colorScheme')}
-        id={t('alloSwap.num')}
+        num={t('tokenVesting.num')}
+        header={t('tokenVesting.header')}
+        title={t('tokenVesting.title')}
+        paragraph1={t('tokenVesting.paragraph1')}
+        buttonLink={t('tokenVesting.buttonLink')}
+        colorScheme={t('tokenVesting.colorScheme')}
+        id={t('tokenVesting.num')}
       />
     </Section>
   )

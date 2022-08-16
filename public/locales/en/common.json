@@ -56,5 +56,11 @@
     "paragraph1": "Enable investors to partially or fully trade their allocations. Presail ensures the cap table is updated and accurate. You can view past trades to understand how the cap table got to what it is today.",
     "buttonLink":"Partners and clients",
     "colorScheme":"light"
+  },
+  "testimonial": {
+    "header": "Testimonial",
+    "description": "Presail was the natural choice for us to go with - every single aspect of their platform has made us 1000X more efficient. It’s smooth sailing so to speak.",
+    "name": "John Doe Smith",
+    "logoPath": "/images/DuckDAO.svg"
   }
 }
