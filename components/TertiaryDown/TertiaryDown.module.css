@@ -6,7 +6,8 @@
     w-[10.5rem]
     inline-flex
     items-center
-    mb-6;
+    mb-6
+    cursor-pointer;
 }
 
 .link {
