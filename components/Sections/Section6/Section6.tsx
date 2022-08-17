@@ -1,6 +1,6 @@
 import React from 'react'
-import Section from '../../Section/Section'
-import SectionHeading from '../../SectionHeading/SectionHeading'
+import Section from '@/components/Section/Section'
+import SectionHeading from '@/components/SectionHeading/SectionHeading'
 import {useTranslation} from 'next-i18next'
 
 const Section6 = () => {

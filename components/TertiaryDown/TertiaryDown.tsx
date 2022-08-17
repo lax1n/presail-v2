@@ -2,7 +2,7 @@ import React from 'react'
 import {ArrowDown} from 'phosphor-react'
 import styles from './TertiaryDown.module.css'
 import classNames from 'classnames'
-import {colorScheme} from '../Section/Section'
+import {colorScheme} from '@/components/Section/Section'
 import {Link} from 'react-scroll'
 
 interface TertiaryDownProps {
