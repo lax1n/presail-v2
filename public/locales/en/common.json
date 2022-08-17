@@ -54,7 +54,6 @@
     "header": "AlloSwapᵀᴹ / OTC",
     "title": "Enable allocation swaps between investors. Facilitate OTC trades, and know that your cap table is 100% up-to-date.",
     "paragraph1": "Enable investors to partially or fully trade their allocations. Presail ensures the cap table is updated and accurate. You can view past trades to understand how the cap table got to what it is today.",
-    "buttonLink":"Partners and clients",
     "colorScheme":"light"
   },
   "testimonial": {
@@ -62,6 +61,12 @@
     "description": "Presail was the natural choice for us to go with - every single aspect of their platform has made us 1000X more efficient. It’s smooth sailing so to speak.",
     "name": "John Doe Smith",
     "logoPath": "/images/DuckDAO.svg"
+  },
+  "bestOption": {
+    "header": "The best option",
+    "title": "Compliant & established.",
+    "paragraph1": "Our philosophy is trust and availability. We’re always a DM away. By investing in audits, regulatory assessments, and security rundowns - you'll have the most secure and reliant tool at your disposal.",
+    "colorScheme": "dark"
   },
   "footer": {
     "date": "2022",

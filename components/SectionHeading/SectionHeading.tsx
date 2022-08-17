@@ -11,7 +11,7 @@ interface SectionHeadingProps {
   paragraph1: string
   paragraph2?: string
   buttonLink?: string
-  id: string
+  id?: string
   colorScheme?: colorScheme
 }
 
@@ -38,7 +38,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = (props) => {
     [styles.paragraphDark]: colorScheme === 'dark',
   })
 
-  const nextId = '0' + (parseInt(id) + 1).toString() // example: id = '01', nextId = '02'
+  const nextId = '0' + (parseInt(id!) + 1).toString() // example: id = '01', nextId = '02'
 
   return (
     <div className={styles.width} id={id}>
@@ -64,7 +64,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = (props) => {
             </div>
           </>
         }
-        <TertiaryDown link={buttonLink} id={nextId} colorScheme={colorScheme}/>
+        {id && buttonLink && <TertiaryDown link={buttonLink} id={nextId} colorScheme={colorScheme}/>}
       </div>
     </div>
   )
