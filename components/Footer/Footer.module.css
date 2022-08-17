@@ -1,6 +1,7 @@
 .wrapper {
     @apply text-white
-    max-w-[20rem]
+    font-buch
+    max-w-[19rem]
     antialiased;
 }
 
