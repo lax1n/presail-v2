@@ -4,8 +4,7 @@ import Section from '../../Section/Section'
 import Image from 'next/image'
 import styles from './Section9.module.css'
 import {useTranslation} from 'next-i18next'
-import FooterLink from "../../FooterLink/FooterLink";
-import FooterLinkGrid from "../../FooterLinkGrid/FooterLinkGrid";
+import FooterLinkGrid from '../../FooterLinkGrid/FooterLinkGrid'
 
 const Section9 = () => {
   const { t } = useTranslation('common')
