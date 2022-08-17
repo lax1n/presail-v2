@@ -7,7 +7,7 @@ const Section7 = () => {
   const { t } = useTranslation('common')
   return (
     <Section  colorScheme={'dark'}>
-      <div className={'ml-[25rem] mb-[6.813rem]'}>
+      <div className={'ml-[13rem] mb-[6.813rem]'}>
         <SectionHeading
           header={t('bestOption.header')}
           title={t('bestOption.title')}
