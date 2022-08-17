@@ -1,0 +1,11 @@
+.wrapper {
+    @apply grid
+    grid-cols-3
+    mt-[3.875rem]
+    mb-20;
+}
+.logo {
+    @apply items-start
+    ml-[2rem]
+    sm:ml-[7.5rem];
+}

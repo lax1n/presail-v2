@@ -62,5 +62,9 @@
     "description": "Presail was the natural choice for us to go with - every single aspect of their platform has made us 1000X more efficient. It’s smooth sailing so to speak.",
     "name": "John Doe Smith",
     "logoPath": "/images/DuckDAO.svg"
+  },
+  "footer": {
+    "date": "2022",
+    "description": "Presail is operated by the registered Norwegian entity Datablock AS. All rights reserved."
   }
 }
