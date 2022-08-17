@@ -1,9 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
-import HeroHeading from '../../HeroHeading/HeroHeading'
-import Button from '../../Button/Button'
-import TertiaryButtonGrid from '../../TertiaryButtonGrid/TertiaryButtonGrid'
-import Section from '../../Section/Section'
+import HeroHeading from '@/components/HeroHeading/HeroHeading'
+import Button from '@/components/Button/Button'
+import TertiaryButtonGrid from '@/components/TertiaryButtonGrid/TertiaryButtonGrid'
+import Section from '@/components/Section/Section'
 import {useTranslation} from 'next-i18next'
 import styles from './Section0.module.css'
 

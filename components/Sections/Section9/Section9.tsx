@@ -1,10 +1,10 @@
 import React from 'react'
-import Footer from '../../Footer/Footer'
-import Section from '../../Section/Section'
+import Footer from '@/components/Footer/Footer'
+import Section from '@/components/Section/Section'
 import Image from 'next/image'
 import styles from './Section9.module.css'
 import {useTranslation} from 'next-i18next'
-import FooterLinkGrid from '../../FooterLinkGrid/FooterLinkGrid'
+import FooterLinkGrid from '@/components/FooterLinkGrid/FooterLinkGrid'
 
 const Section9 = () => {
   const { t } = useTranslation('common')

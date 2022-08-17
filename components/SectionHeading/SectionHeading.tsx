@@ -1,8 +1,8 @@
 import React from 'react'
 import styles from './SectionHeading.module.css'
-import TertiaryDown from '../TertiaryDown/TertiaryDown'
+import TertiaryDown from '@/components/TertiaryDown/TertiaryDown'
 import classNames from 'classnames'
-import {colorScheme} from '../Section/Section'
+import {colorScheme} from '@/components/Section/Section'
 
 interface SectionHeadingProps {
   num?: string

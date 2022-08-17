@@ -1,7 +1,7 @@
 import React from 'react'
-import SectionHeading from '../../SectionHeading/SectionHeading'
+import SectionHeading from '@/components/SectionHeading/SectionHeading'
 import Image from 'next/image'
-import Section from '../../Section/Section'
+import Section from '@/components/Section/Section'
 import {useTranslation} from 'next-i18next'
 import styles from './Section2.module.css'
 
