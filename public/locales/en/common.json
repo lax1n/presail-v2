@@ -6,6 +6,32 @@
   "button": {
     "text": "Schedule demo"
   },
+  "tertiaryButton": {
+    "dealsManagement": {
+      "num": "01",
+      "description": "Deals management"
+    },
+    "contributions": {
+      "num": "02",
+      "description": "Contributions"
+    },
+    "assetManagement": {
+      "num": "03",
+      "description": "Asset management"
+    },
+    "investorPortal": {
+      "num": "04",
+      "description": "Investor portal"
+    },
+    "tokenVesting": {
+      "num": "05",
+      "description": "Token vesting"
+    },
+    "alloSwap": {
+      "num": "06",
+      "description": "AlloSwapᵀᴹ / OTC"
+    }
+  },
   "dealsManagement": {
     "num": "01",
     "header": "Deals management",
@@ -71,5 +97,23 @@
   "footer": {
     "date": "2022",
     "description": "Presail is operated by the registered Norwegian entity Datablock AS. All rights reserved."
+  },
+  "footerLink": {
+    "github": {
+      "name": "Github",
+      "href": "https://github.com/"
+    },
+    "medium": {
+      "name": "Medium",
+      "href": "https://medium.com/"
+    },
+    "linkedIn": {
+      "name": "LinkedIn",
+      "href": "https://www.linkedin.com/"
+    },
+    "twitter": {
+      "name": "Twitter",
+      "href": "https://twitter.com/"
+    }
   }
 }
