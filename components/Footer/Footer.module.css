@@ -1,0 +1,13 @@
+.wrapper {
+    @apply text-white
+    max-w-[20rem]
+    antialiased;
+}
+
+.date {
+    @apply font-bold;
+}
+
+.description {
+    @apply text-sm;
+}
