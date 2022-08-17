@@ -1,6 +1,7 @@
 import React from 'react'
 import FooterLink from '../FooterLink/FooterLink'
 import {useTranslation} from 'next-i18next'
+import styles from './FooterLinkGrid.module.css'
 
 const FooterLinkGrid = () => {
   const { t } = useTranslation('common')
@@ -13,7 +14,7 @@ const FooterLinkGrid = () => {
   ]
 
   return (
-    <div className={'grid grid-cols-1'}>
+    <div className={styles.footerLinkGrid}>
       {footerLinkData.map((item)=>{
         return (
           <div key={item.name}>
