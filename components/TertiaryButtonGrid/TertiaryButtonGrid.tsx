@@ -2,13 +2,13 @@ import React from 'react'
 import TertiaryButton from '../TertiaryButton/TertiaryButton'
 import styles from './TertiaryButtonGrid.module.css'
 
-export const tertiaryButtonData = [
-  ['01', 'Deals management'],
-  ['02', 'Contributions'],
-  ['03', 'Asset management'],
-  ['04', 'Investor portal'],
-  ['05', 'Token vesting'],
-  ['06', 'AlloSwapᵀᴹ / OTC']
+export const tertiaryButtonData: { num: string, description: string }[] = [
+  {num: '01', description: 'Deals management'},
+  {num: '02', description: 'Contributions'},
+  {num: '03', description: 'Asset management'},
+  {num: '04', description: 'Investor portal'},
+  {num: '05', description: 'Token vesting'},
+  {num: '06', description: 'AlloSwapᵀᴹ / OTC'}
 ]
 
 const TertiaryButtonGrid = () => {
@@ -16,8 +16,8 @@ const TertiaryButtonGrid = () => {
     <div className={styles.buttonGrid}>
       {tertiaryButtonData.map((item)=>{
         return (
-          <div key={item[0]}>
-            <TertiaryButton num={item[0]} description={item[1]} className={'mb-2'}/>
+          <div key={item.num}>
+            <TertiaryButton num={item.num} description={item.description} className={'mb-2'}/>
           </div>
         )
       })}
