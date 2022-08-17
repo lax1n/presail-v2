@@ -1,17 +1,38 @@
 import React from 'react'
 import TertiaryButton from '../TertiaryButton/TertiaryButton'
 import styles from './TertiaryButtonGrid.module.css'
-
-export const tertiaryButtonData: { num: string, description: string }[] = [
-  {num: '01', description: 'Deals management'},
-  {num: '02', description: 'Contributions'},
-  {num: '03', description: 'Asset management'},
-  {num: '04', description: 'Investor portal'},
-  {num: '05', description: 'Token vesting'},
-  {num: '06', description: 'AlloSwapᵀᴹ / OTC'}
-]
+import {useTranslation} from 'next-i18next'
 
 const TertiaryButtonGrid = () => {
+  const { t } = useTranslation('common')
+
+  const tertiaryButtonData: { num: string, description: string }[] = [
+    {
+      num: t('tertiaryButton.dealsManagement.num'),
+      description: t('tertiaryButton.dealsManagement.description')
+    },
+    {
+      num: t('tertiaryButton.contributions.num'),
+      description: t('tertiaryButton.contributions.description')
+    },
+    {
+      num: t('tertiaryButton.assetManagement.num'),
+      description: t('tertiaryButton.assetManagement.description')
+    },
+    {
+      num: t('tertiaryButton.investorPortal.num'),
+      description: t('tertiaryButton.investorPortal.description')
+    },
+    {
+      num: t('tertiaryButton.tokenVesting.num'),
+      description: t('tertiaryButton.tokenVesting.description')
+    },
+    {
+      num: t('tertiaryButton.alloSwap.num'),
+      description: t('tertiaryButton.alloSwap.description')
+    },
+  ]
+
   return (
     <div className={styles.buttonGrid}>
       {tertiaryButtonData.map((item)=>{

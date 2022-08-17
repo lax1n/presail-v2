@@ -1,14 +1,17 @@
 import React from 'react'
 import FooterLink from '../FooterLink/FooterLink'
-
-export const footerLinkData: { name: string, href: string }[] = [
-  {name:'Github', href: 'https://github.com/'},
-  {name:'Medium', href: 'https://medium.com/'},
-  {name:'LinkedIn', href: 'https://www.linkedin.com/'},
-  {name: 'Twitter', href: 'https://twitter.com/'},
-]
+import {useTranslation} from 'next-i18next'
 
 const FooterLinkGrid = () => {
+  const { t } = useTranslation('common')
+
+  const footerLinkData: { name: string, href: string }[] = [
+    {name: t('footerLink.github.name'), href: t('footerLink.github.href')},
+    {name:t('footerLink.medium.name'), href: t('footerLink.medium.href')},
+    {name:t('footerLink.linkedIn.name'), href: t('footerLink.linkedIn.href')},
+    {name:t('footerLink.twitter.name'), href: t('footerLink.twitter.href')},
+  ]
+
   return (
     <div className={'grid grid-cols-1'}>
       {footerLinkData.map((item)=>{
