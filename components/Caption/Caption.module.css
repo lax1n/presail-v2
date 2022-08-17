@@ -1,0 +1,16 @@
+.wrapper {
+    @apply w-80
+    font-buch
+    text-gunMetal
+    antialiased;
+}
+
+.title {
+    @apply font-bold
+    text-xl
+    mb-4;
+}
+
+.description {
+    @apply text-sm;
+}

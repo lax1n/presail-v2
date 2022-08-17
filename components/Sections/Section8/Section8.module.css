@@ -1,0 +1,10 @@
+.captionGetInTouch {
+    @apply mb-[8.75rem]
+    mt-[5.625rem]
+    ml-[25rem];
+}
+
+.captionBackers {
+    @apply ml-[25rem]
+    mb-[2.25rem];
+}

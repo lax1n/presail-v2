@@ -94,6 +94,14 @@
     "paragraph1": "Our philosophy is trust and availability. We’re always a DM away. By investing in audits, regulatory assessments, and security rundowns - you'll have the most secure and reliant tool at your disposal.",
     "colorScheme": "dark"
   },
+  "captionGetInTouch": {
+    "title": "Presail backers",
+    "description": "The Presail team has over 100 years of experience in development, security, finance, and design. We strive to define how token management will work in web 3.0 at a root level and are proud to serve and be trusted by the best organizations."
+  },
+  "captionBackers": {
+    "title": "Get in touch",
+    "description": "Presail is backed by Kraken Ventures, Global Founders Capital, Skyfall, Weekend Fund, the COO of Axie Infinity, and many more."
+  },
   "footer": {
     "date": "2022",
     "description": "Presail is operated by the registered Norwegian entity Datablock AS. All rights reserved."
