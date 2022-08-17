@@ -52,7 +52,8 @@
 .name {
     @apply font-buch
     text-graniteGray
-    text-base;
+    text-base
+    font-bold;
 }
 
 .logo {
