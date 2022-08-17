@@ -12,10 +12,10 @@ const Section6 = () => {
         header={t('alloSwap.header')}
         title={t('alloSwap.title')}
         paragraph1={t('alloSwap.paragraph1')}
-        buttonLink={t('alloSwap.buttonLink')}
         colorScheme={t('alloSwap.colorScheme')}
         id={t('alloSwap.num')}
       />
+      <div className={'mb-32'}></div>
     </Section>
   )
 }

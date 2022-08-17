@@ -64,7 +64,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = (props) => {
             </div>
           </>
         }
-        {id && <TertiaryDown link={buttonLink} id={nextId} colorScheme={colorScheme}/>}
+        {id && buttonLink && <TertiaryDown link={buttonLink} id={nextId} colorScheme={colorScheme}/>}
       </div>
     </div>
   )
