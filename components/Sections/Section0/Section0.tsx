@@ -6,6 +6,9 @@ import TertiaryButtonGrid from '@/components/TertiaryButtonGrid/TertiaryButtonGr
 import Section from '@/components/Section/Section'
 import {useTranslation} from 'next-i18next'
 import styles from './Section0.module.css'
+import Lottie from 'lottie-react'
+import preSailTable from '@/public/images/PresailTable.json'
+import notifications from '@/public/images/Notefications.json'
 
 const Section0 = () => {
   const { t } = useTranslation('common')
@@ -35,12 +38,10 @@ const Section0 = () => {
           <TertiaryButtonGrid/>
         </div>
         <div className={'mt-[5.5rem]'}>
-          <Image
-            alt={'Presail Table'}
-            src='/images/Table.svg'
-            width={'652px'}
-            height={'536px'}
-          />
+          <Lottie animationData={preSailTable} loop={true} />
+          <div className={styles.notifications}>
+            <Lottie animationData={notifications} loop={true} />
+          </div>
         </div>
       </div>
       <Image
