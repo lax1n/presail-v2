@@ -2,11 +2,21 @@ import React from 'react'
 import Section from '@/components/Section/Section'
 import SectionHeading from '@/components/SectionHeading/SectionHeading'
 import {useTranslation} from 'next-i18next'
+import Image from 'next/image'
+import styles from './Section5.module.css'
 
 const Section5 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
+      <div className={styles.score}>
+        <Image
+          alt={'Presail Score'}
+          src={'/images/Score.svg'}
+          width={'964px'}
+          height={'160px'}
+        />
+      </div>
       <SectionHeading
         num={t('tokenVesting.num')}
         header={t('tokenVesting.header')}

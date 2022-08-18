@@ -20,3 +20,9 @@
     @apply ml-[25rem]
     mb-[2.25rem];
 }
+
+.compliance {
+    @apply relative
+    -mt-[5rem]
+    ml-[22rem];
+}
