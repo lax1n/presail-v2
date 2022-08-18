@@ -7,11 +7,21 @@ interface BackerProps {
   name: string
   occupation: string
   companyImgSrc: string
-  companyAlt?: string
+  companyImgWidth: string
+  companyImgHeight: string
+  companyImgAlt?: string
 }
 
 const Backer: React.FC<BackerProps> = (props) => {
-  const { name, occupation, backerImgSrc, companyImgSrc, companyAlt } = props
+  const {
+    name,
+    occupation,
+    backerImgSrc,
+    companyImgSrc,
+    companyImgWidth,
+    companyImgHeight,
+    companyImgAlt
+  } = props
 
   return (
     <div className={styles.wrapper}>
@@ -29,9 +39,9 @@ const Backer: React.FC<BackerProps> = (props) => {
       </div>
       <Image
         src={companyImgSrc}
-        alt={companyAlt}
-        width={'100px'}
-        height={'14px'}
+        alt={companyImgAlt}
+        width={companyImgWidth}
+        height={companyImgHeight}
       />
     </div>
   )

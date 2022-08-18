@@ -110,6 +110,8 @@
     "occupation": "CEO, AngelList Venture",
     "backerImgSrc": "/images/AvlokKohli.webp",
     "companyImgSrc": "/images/AngelList.svg",
+    "companyImgWidth":"103px",
+    "companyImgHeight":"14px",
     "companyAlt": "AngelList logo"
   },
   "backerAleksander": {
@@ -117,11 +119,45 @@
     "occupation": "COO Sky Mavis / Axie Infinity",
     "backerImgSrc": "/images/Aleksander.webp",
     "companyImgSrc": "/images/SkyAxie.svg",
+    "companyImgWidth":"95px",
+    "companyImgHeight":"14px",
     "companyAlt": "AxieInfinity"
   },
   "captionBackers": {
     "title": "Presail backers",
     "description": "Presail is backed by <strong>Kraken Ventures, Global Founders Capital, Skyfall, Weekend Fund</strong>, the COO of <strong>Axie Infinity</strong>, and many more."
+  },
+  "companies": {
+    "weekendFund": {
+      "alt": "Weekend Fund",
+      "src": "/images/WeekendFundLogo.webp",
+      "width": "160px",
+      "height": "32px"
+    },
+    "kraken": {
+      "alt": "Kraken Ventures",
+      "src": "/images/KrakenLogo.webp",
+      "width": "184px",
+      "height": "16px"
+    },
+    "sno": {
+      "alt": "SNO",
+      "src": "/images/SnoLogo.webp",
+      "width": "62px",
+      "height": "32px"
+    },
+    "skyfall": {
+      "alt": "Skyfall",
+      "src": "/images/SkyfallLogo.webp",
+      "width": "160px",
+      "height": "40px"
+    },
+    "gfc": {
+      "alt": "GFC",
+      "src": "/images/GFCLogo.webp",
+      "width": "59px",
+      "height": "24px"
+    }
   },
   "footer": {
     "date": "2022",

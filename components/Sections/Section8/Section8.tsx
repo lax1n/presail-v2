@@ -6,6 +6,7 @@ import {useTranslation} from 'next-i18next'
 import { Trans } from 'react-i18next'
 import Avatar from '@/components/Avatar/Avatar'
 import Backer from '@/components/Backer/Backer'
+import Companies from '@/components/Companies/Companies'
 
 const Section8 = () => {
   const { t } = useTranslation('common')
@@ -35,16 +36,23 @@ const Section8 = () => {
           occupation ={t('backerAvlok.occupation')}
           backerImgSrc={t('backerAvlok.backerImgSrc')}
           companyImgSrc={t('backerAvlok.companyImgSrc')}
-          companyAlt={t('backerAvlok.companyAlt')}
+          companyImgWidth={t('backerAvlok.companyImgWidth')}
+          companyImgHeight={t('backerAvlok.companyImgHeight')}
+          companyImgAlt={t('backerAvlok.companyAlt')}
         />
         <Backer
           name={t('backerAleksander.name')}
           occupation ={t('backerAleksander.occupation')}
           backerImgSrc={t('backerAleksander.backerImgSrc')}
           companyImgSrc={t('backerAleksander.companyImgSrc')}
-          companyAlt={t('backerAleksander.companyAlt')}
+          companyImgWidth={t('backerAleksander.companyImgWidth')}
+          companyImgHeight={t('backerAleksander.companyImgHeight')}
+          companyImgAlt={t('backerAleksander.companyAlt')}
         />
       </div>
+      <Companies
+        className={'ml-[16.375rem] mb-[5.25rem]'}
+      />
     </Section>
   )
 }
