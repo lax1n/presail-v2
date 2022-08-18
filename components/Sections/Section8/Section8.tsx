@@ -17,11 +17,11 @@ const Section8 = () => {
           description={t('captionGetInTouch.description')}
         />
         <Avatar
-          src={'/images/EvenPresail.webp'}
-          name={'Even Bergan Bugge'}
-          occupation={'Account Excecutive'}
-          telegram={'@pacyos'}
-          email={'even@presail.com'}
+          src={t('avatar.src')}
+          name={t('avatar.name')}
+          occupation={t('avatar.occupation')}
+          telegram={t('avatar.telegram')}
+          email={t('avatar.email')}
         />
       </div>
       <Caption
@@ -29,20 +29,20 @@ const Section8 = () => {
         description={<Trans i18nKey='captionBackers.description' />}
         className={styles.captionBackers}
       />
-      <div className={'ml-[25rem] mb-[2.75rem] grid grid-cols-2 max-w-[26rem] gap-8'}>
+      <div className={styles.backerGrid}>
         <Backer
-          name={'Avlok Kohli'}
-          occupation ={'CEO, AngelList Venture'}
-          backerImgSrc={'/images/AvlokKohli.webp'}
-          companyImgSrc={'/images/AngelList.webp'}
-          companyAlt={'AngelList logo'}
+          name={t('backerAvlok.name')}
+          occupation ={t('backerAvlok.occupation')}
+          backerImgSrc={t('backerAvlok.backerImgSrc')}
+          companyImgSrc={t('backerAvlok.companyImgSrc')}
+          companyAlt={t('backerAvlok.companyAlt')}
         />
         <Backer
-          name={'Aleksander Larsen'}
-          occupation ={'COO Sky Mavis / Axie Infinity'}
-          backerImgSrc={'/images/Aleksander.webp'}
-          companyImgSrc={'/images/SkyAxie.svg'}
-          companyAlt={'AxieInfinity'}
+          name={t('backerAleksander.name')}
+          occupation ={t('backerAleksander.occupation')}
+          backerImgSrc={t('backerAleksander.backerImgSrc')}
+          companyImgSrc={t('backerAleksander.companyImgSrc')}
+          companyAlt={t('backerAleksander.companyAlt')}
         />
       </div>
     </Section>

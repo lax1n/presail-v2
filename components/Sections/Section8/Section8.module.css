@@ -7,6 +7,15 @@
     ml-[25rem];
 }
 
+.backerGrid {
+    @apply grid
+    grid-cols-2
+    gap-8
+    ml-[25rem]
+    mb-[2.75rem]
+    max-w-[26rem];
+}
+
 .captionBackers {
     @apply ml-[25rem]
     mb-[2.25rem];
