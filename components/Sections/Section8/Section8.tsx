@@ -7,11 +7,20 @@ import { Trans } from 'react-i18next'
 import Avatar from '@/components/Avatar/Avatar'
 import Backer from '@/components/Backer/Backer'
 import Companies from '@/components/Companies/Companies'
+import Image from 'next/image'
 
 const Section8 = () => {
   const { t } = useTranslation('common')
   return (
     <Section>
+      <div className={styles.compliance}>
+        <Image
+          alt={'Presail Compliance'}
+          src={'/images/Compliance.svg'}
+          width={'514px'}
+          height={'148px'}
+        />
+      </div>
       <div className={styles.avatarGrid}>
         <Caption
           title={t('captionGetInTouch.title')}
