@@ -1,0 +1,6 @@
+.companiesGrid {
+    @apply flex
+    gap-8
+    w-[47.25rem]
+    items-center;
+}
