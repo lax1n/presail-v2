@@ -1,0 +1,6 @@
+.vestingProgress {
+    @apply relative
+    -mt-[19rem]
+    ml-[45rem]
+    w-[440px];
+}
