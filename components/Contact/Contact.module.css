@@ -1,6 +1,7 @@
 .wrapper {
     @apply flex
-    gap-2;
+    gap-2
+    antialiased;
 }
 
 .contactDetails {
