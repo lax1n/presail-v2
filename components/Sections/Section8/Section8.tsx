@@ -16,7 +16,7 @@ const Section8 = () => {
       />
       <Caption
         title={t('captionBackers.title')}
-        description={<Trans i18nKey="captionBackers.description" />}
+        description={<Trans i18nKey='captionBackers.description' />}
         className={styles.captionBackers}
       />
     </Section>
