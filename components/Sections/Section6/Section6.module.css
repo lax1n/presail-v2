@@ -1,6 +1,6 @@
-.vestingProgress {
+.vestingBar {
     @apply relative
-    -mt-[19rem]
+    -mt-[5rem]
     ml-[45rem]
-    w-[440px];
+    w-[27.5rem];
 }

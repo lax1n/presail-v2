@@ -3,15 +3,15 @@ import Section from '@/components/Section/Section'
 import SectionHeading from '@/components/SectionHeading/SectionHeading'
 import {useTranslation} from 'next-i18next'
 import Lottie from 'lottie-react'
-import vestingProgress from '@/public/images/Vesting progress.json'
+import vestingBar from '@/public/images/Vesting Bar.json'
 import styles from './Section6.module.css'
 
 const Section6 = () => {
   const { t } = useTranslation('common')
   return (
     <Section>
-      <div className={styles.vestingProgress}>
-        <Lottie animationData={vestingProgress} loop={true} />
+      <div className={styles.vestingBar}>
+        <Lottie animationData={vestingBar} loop={true} />
       </div>
       <SectionHeading
         num={t('alloSwap.num')}
