@@ -1,0 +1,18 @@
+.wrapper {
+    @apply w-48
+    h-[17.188rem]
+    font-buch
+    text-gunMetal
+    antialiased;
+}
+
+.name {
+    @apply mt-[1.688rem]
+    text-base
+    font-bold;
+}
+
+.occupation {
+    @apply text-sm
+    mb-2;
+}

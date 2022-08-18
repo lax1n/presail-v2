@@ -29,7 +29,7 @@ const Section0 = () => {
 
           <Button
             text={t('button.text')}
-            className={'mb-12'}
+            className={'mb-12 ml-[7.5rem]'}
           />
 
           <TertiaryButtonGrid/>

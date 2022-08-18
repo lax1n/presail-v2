@@ -1,0 +1,9 @@
+.wrapper {
+    @apply flex
+    gap-2
+    antialiased;
+}
+
+.contactDetails {
+    @apply text-sm;
+}
