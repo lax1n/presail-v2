@@ -37,7 +37,7 @@ const Section0 = () => {
 
           <TertiaryButtonGrid/>
         </div>
-        <div className={'mt-[5.5rem]'}>
+        <div className={'mt-[5.5rem] mr-[10.5rem]'}>
           <Lottie animationData={preSailTable} loop={true} />
           <div className={styles.notifications}>
             <Lottie animationData={notifications} loop={true} />

@@ -13,7 +13,7 @@
 
 .notifications {
     @apply relative
-    w-[212px]
-    -mt-[34rem]
-    ml-[37rem];
+    w-[180px]
+    -mt-[27rem]
+    ml-[30rem];
 }
