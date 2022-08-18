@@ -2,7 +2,7 @@
     @apply grid
     grid-cols-2
     max-w-[50rem]
-    mb-[8.75rem]
+    mb-[0.25rem]
     mt-[5.625rem]
     ml-[25rem];
 }
