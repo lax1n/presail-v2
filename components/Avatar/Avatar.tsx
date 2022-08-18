@@ -6,7 +6,7 @@ import styles from './Avatar.module.css'
 import classNames from 'classnames'
 
 interface AvatarProps {
-  avatarImgPath: string
+  src: string
   name: string
   occupation: string
   telegram: string
@@ -15,11 +15,11 @@ interface AvatarProps {
 }
 
 const Avatar: React.FC<AvatarProps> = (props) => {
-  const { avatarImgPath, name, occupation, telegram, email, className } = props
+  const { src, name, occupation, telegram, email, className } = props
   return (
     <div className={classNames(styles.wrapper, className)}>
       <Image
-        src={avatarImgPath}
+        src={src}
         alt={name}
         width={'96px'}
         height={'96px'}

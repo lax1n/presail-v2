@@ -5,6 +5,7 @@ import styles from './Section8.module.css'
 import {useTranslation} from 'next-i18next'
 import { Trans } from 'react-i18next'
 import Avatar from '@/components/Avatar/Avatar'
+import Backer from '@/components/Backer/Backer'
 
 const Section8 = () => {
   const { t } = useTranslation('common')
@@ -16,11 +17,11 @@ const Section8 = () => {
           description={t('captionGetInTouch.description')}
         />
         <Avatar
-          avatarImgPath={'/images/EvenPresail.webp'}
-          name={'Even Bergan Bugge'}
-          occupation={'Account Excecutive'}
-          telegram={'@pacyos'}
-          email={'even@presail.com'}
+          src={t('avatar.src')}
+          name={t('avatar.name')}
+          occupation={t('avatar.occupation')}
+          telegram={t('avatar.telegram')}
+          email={t('avatar.email')}
         />
       </div>
       <Caption
@@ -28,6 +29,22 @@ const Section8 = () => {
         description={<Trans i18nKey='captionBackers.description' />}
         className={styles.captionBackers}
       />
+      <div className={styles.backerGrid}>
+        <Backer
+          name={t('backerAvlok.name')}
+          occupation ={t('backerAvlok.occupation')}
+          backerImgSrc={t('backerAvlok.backerImgSrc')}
+          companyImgSrc={t('backerAvlok.companyImgSrc')}
+          companyAlt={t('backerAvlok.companyAlt')}
+        />
+        <Backer
+          name={t('backerAleksander.name')}
+          occupation ={t('backerAleksander.occupation')}
+          backerImgSrc={t('backerAleksander.backerImgSrc')}
+          companyImgSrc={t('backerAleksander.companyImgSrc')}
+          companyAlt={t('backerAleksander.companyAlt')}
+        />
+      </div>
     </Section>
   )
 }

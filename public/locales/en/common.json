@@ -95,11 +95,32 @@
     "colorScheme": "dark"
   },
   "captionGetInTouch": {
-    "title": "Presail backers",
+    "title": "Get in touch",
     "description": "The Presail team has over 100 years of experience in development, security, finance, and design. We strive to define how token management will work in web 3.0 at a root level and are proud to serve and be trusted by the best organizations."
   },
+  "avatar": {
+    "src": "/images/EvenPresail.webp",
+    "name": "Even Bergan Bugge",
+    "occupation": "Account Excecutive",
+    "telegram": "@pacyos",
+    "email": "even@presail.com"
+  },
+  "backerAvlok": {
+    "name": "Avlok Kohli",
+    "occupation": "CEO, AngelList Venture",
+    "backerImgSrc": "/images/AvlokKohli.webp",
+    "companyImgSrc": "/images/AngelList.svg",
+    "companyAlt": "AngelList logo"
+  },
+  "backerAleksander": {
+    "name": "Aleksander Larsen",
+    "occupation": "COO Sky Mavis / Axie Infinity",
+    "backerImgSrc": "/images/Aleksander.webp",
+    "companyImgSrc": "/images/SkyAxie.svg",
+    "companyAlt": "AxieInfinity"
+  },
   "captionBackers": {
-    "title": "Get in touch",
+    "title": "Presail backers",
     "description": "Presail is backed by <strong>Kraken Ventures, Global Founders Capital, Skyfall, Weekend Fund</strong>, the COO of <strong>Axie Infinity</strong>, and many more."
   },
   "footer": {
