@@ -1,10 +1,10 @@
-import React from 'react'
+import React, {ReactElement} from 'react'
 import styles from './Caption.module.css'
 import classNames from 'classnames'
 
 interface CaptionProps {
   title: string
-  description: string
+  description: ReactElement
   className?: string
 }
 
