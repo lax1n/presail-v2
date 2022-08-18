@@ -10,3 +10,10 @@
     mt-[9.563rem]
     mb-12;
 }
+
+.notifications {
+    @apply relative
+    w-[180px]
+    -mt-[27rem]
+    ml-[30rem];
+}
