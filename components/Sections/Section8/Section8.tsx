@@ -3,6 +3,7 @@ import Caption from '@/components/Caption/Caption'
 import Section from '@/components/Section/Section'
 import styles from './Section8.module.css'
 import {useTranslation} from 'next-i18next'
+import { Trans } from 'react-i18next'
 
 const Section8 = () => {
   const { t } = useTranslation('common')
@@ -15,7 +16,7 @@ const Section8 = () => {
       />
       <Caption
         title={t('captionBackers.title')}
-        description={t('captionBackers.description')}
+        description={<Trans i18nKey="captionBackers.description" />}
         className={styles.captionBackers}
       />
     </Section>
