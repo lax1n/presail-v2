@@ -20,7 +20,7 @@ const Section2 = () => {
           colorScheme={t('collectContributions.colorScheme')}
           id={t('collectContributions.num')}
         />
-        <div className={styles.collectContributions}>
+        <div className={styles.collectContributions} data-aos={'fade-left'}>
           <Image
             alt={'Presail Collect Contributions'}
             src='/images/02CollectContributions.webp'
@@ -29,7 +29,7 @@ const Section2 = () => {
           />
         </div>
       </div>
-      <div className={styles.chart}>
+      <div className={styles.chart} data-aos={'zoom-in'}>
         <Image
           alt={'Presail Chart'}
           src='/images/03Chart.webp'
