@@ -2,7 +2,5 @@
     @apply grid
     grid-cols-2
     gap-1
-    w-[23rem]
-    ml-[2rem]
-    sm:ml-[7.5rem];
+    w-[23rem];
 }

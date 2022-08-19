@@ -32,13 +32,15 @@ const Section0 = () => {
 
           <Button
             text={t('button.text')}
-            className={'mb-12 ml-[7.5rem]'}
+            className={'mb-12'}
           />
 
           <TertiaryButtonGrid/>
         </div>
-        <div className={'mt-[5.5rem] mr-[10.5rem]'}>
-          <Lottie animationData={preSailTable} loop={true} />
+        <div className={styles.table}>
+          <div>
+            <Lottie animationData={preSailTable} loop={true} />
+          </div>
           <div className={styles.notifications}>
             <Lottie animationData={notifications} loop={true} />
           </div>
