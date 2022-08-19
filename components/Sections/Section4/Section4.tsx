@@ -9,7 +9,7 @@ const Section4 = () => {
   const { t } = useTranslation('common')
   return (
     <Section>
-      <div className={styles.investorPortal}>
+      <div className={styles.investorPortal} data-aos={'fade-left'}>
         <Image
           alt={'Presail Investor Portal'}
           src='/images/05InvestorPortal.webp'

@@ -9,7 +9,7 @@ const Section3 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
-      <div className={styles.investorManager}>
+      <div className={styles.investorManager} data-aos={'fade-up'}>
         <Image
           alt={'Presail Investor Manager'}
           src='/images/06InvestorManager.webp'
@@ -28,7 +28,7 @@ const Section3 = () => {
           colorScheme={t('investorPortal.colorScheme')}
           id={t('investorPortal.num')}
         />
-        <div className={styles.investorCard}>
+        <div className={styles.investorCard} data-aos={'fade-left'}>
           <Image
             alt={'Presail Investor Card'}
             src='/images/04InvestorCard.webp'

@@ -20,7 +20,7 @@ const Section1 = () => {
           colorScheme={t('dealsManagement.colorScheme')}
           id={t('dealsManagement.num')}
         />
-        <div className={styles.allDeals}>
+        <div className={styles.allDeals} data-aos='fade-up'>
           <Image
             alt={'Presail All Deals'}
             src='/images/01AllDeals.webp'

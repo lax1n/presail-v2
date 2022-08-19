@@ -9,7 +9,7 @@ const Section5 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
-      <div className={styles.score}>
+      <div className={styles.score} data-aos={'zoom-in'}>
         <Image
           alt={'Presail Score'}
           src={'/images/Score.svg'}
