@@ -16,3 +16,7 @@
 .dark {
     @apply bg-gunMetal;
 }
+
+.static {
+    @apply overflow-hidden;
+}
