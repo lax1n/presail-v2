@@ -20,13 +20,15 @@ const Section1 = () => {
           colorScheme={t('dealsManagement.colorScheme')}
           id={t('dealsManagement.num')}
         />
-        <div className={styles.allDeals} data-aos='fade-up'>
-          <Image
-            alt={'Presail All Deals'}
-            src='/images/01AllDeals.webp'
-            layout={'fill'}
-            objectFit={'contain'}
-          />
+        <div className={styles.allDealsWrapper} data-aos='fade-up'>
+          <div className={styles.allDeals}>
+            <Image
+              alt={'Presail All Deals'}
+              src='/images/01AllDeals.webp'
+              width={'509'}
+              height={'298'}
+            />
+          </div>
         </div>
       </div>
       <div className={'mb-[7rem]'}/>

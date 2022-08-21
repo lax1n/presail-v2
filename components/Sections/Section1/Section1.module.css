@@ -1,11 +1,25 @@
 .sectionGrid {
     @apply grid
-    grid-cols-2;
+    grid-cols-1
+    xl:grid-cols-2;
+}
+
+.allDealsWrapper {
+    @apply relative
+    mx-auto
+    overflow-x-hidden
+    overflow-y-hidden
+    -mt-[6.5rem]
+    order-first
+    xl:order-last;
 }
 
 .allDeals {
     @apply relative
-    w-[33.313rem]
-    h-[20.563rem]
-    -mt-[6.5rem];
+    overflow-x-clip
+    -right-[5rem]
+    scale-125
+    xs:scale-100
+    xs:right-0
+    z-0;
 }
