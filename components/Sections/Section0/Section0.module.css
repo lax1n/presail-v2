@@ -1,20 +1,32 @@
 .sectionGrid {
-    @apply grid grid-cols-1 xl:flex
-    max-w-[80rem]
+    @apply grid grid-cols-1
+    xl:flex
+    max-w-[25rem]
+    md:max-w-[80rem]
     mx-auto;
 }
 
 .logo {
     @apply items-start
-    mt-[9.5rem]
-    mb-12;
+    mt-12
+    xl:mt-[9.5rem]
+    mb-12
+    ml-[3rem]
+    xl:ml-0;
+}
+
+.margin {
+    @apply mb-12
+    ml-[3rem]
+    xl:ml-0;
 }
 
 .table {
     @apply order-first
     xl:order-last
     relative
-    mt-[5.5rem];
+    mt-4
+    sm:mt-[5.5rem];
 }
 
 .notifications {

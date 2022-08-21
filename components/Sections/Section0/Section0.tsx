@@ -27,15 +27,16 @@ const Section0 = () => {
           <HeroHeading
             title={t('heroHeading.title')}
             subtitle={t('heroHeading.subtitle')}
-            className={'mb-12'}
+            className={styles.margin}
           />
 
           <Button
             text={t('button.text')}
-            className={'mb-12'}
+            className={'mb-12 ml-[3rem] xl:ml-0'}
           />
-
-          <TertiaryButtonGrid/>
+          <div className={styles.margin}>
+            <TertiaryButtonGrid/>
+          </div>
         </div>
         <div className={styles.table}>
           <div>
@@ -46,12 +47,22 @@ const Section0 = () => {
           </div>
         </div>
       </div>
-      <Image
-        alt={'Presail Social Proof'}
-        src='/images/socialProofNumbersHorizontal.svg'
-        width={'726px'}
-        height={'149px'}
-      />
+      <div className={'hidden md:grid'}>
+        <Image
+          alt={'Presail Social Proof'}
+          src='/images/socialProofNumbersHorizontal.svg'
+          width={'726px'}
+          height={'149px'}
+        />
+      </div>
+      <div className={'grid md:hidden'}>
+        <Image
+          alt={'Presail Social Proof Vertical'}
+          src='/images/VerticalSocialProof.svg'
+          width={'294px'}
+          height={'402px'}
+        />
+      </div>
       <div className={'mb-[11.438rem]'}/>
     </Section>
   )
