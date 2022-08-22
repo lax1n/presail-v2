@@ -9,15 +9,28 @@ const Section3 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
-      <div className={styles.investorManager} data-aos={'fade-up'}>
-        <Image
-          alt={'Presail Investor Manager'}
-          src='/images/06InvestorManager.webp'
-          layout={'fill'}
-          objectFit={'contain'}
-        />
-      </div>
       <div className={styles.sectionGrid}>
+        <div  className={styles.investorManagerWrapper} data-aos={'fade-up'}>
+          <div className={styles.investorManager}>
+            <Image
+              alt={'Presail Investor Manager'}
+              src='/images/06InvestorManager.webp'
+              width={'520px'}
+              height={'308px'}
+            />
+          </div>
+        </div>
+        <div className={styles.investorCard} data-aos={'fade-left'}>
+          <Image
+            alt={'Presail Investor Card'}
+            src='/images/04InvestorCard.webp'
+            width={'348px'}
+            height={'412px'}
+            className={styles.scale}
+          />
+        </div>
+      </div>
+      <div className={'grid grid-cols-2 mx-auto'}>
         <SectionHeading
           num={t('investorPortal.num')}
           header={t('investorPortal.header')}
@@ -28,14 +41,6 @@ const Section3 = () => {
           colorScheme={t('investorPortal.colorScheme')}
           id={t('investorPortal.num')}
         />
-        <div className={styles.investorCard} data-aos={'fade-left'}>
-          <Image
-            alt={'Presail Investor Card'}
-            src='/images/04InvestorCard.webp'
-            layout={'fill'}
-            objectFit={'contain'}
-          />
-        </div>
       </div>
       <div className={'mb-[6.375rem]'}/>
     </Section>

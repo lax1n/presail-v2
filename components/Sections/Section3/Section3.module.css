@@ -1,19 +1,47 @@
 .sectionGrid {
     @apply grid
-    grid-cols-2;
+    grid-cols-1
+    md:mr-[19rem]
+    xl:grid-cols-2
+    xl:max-w-[110rem]
+    xl:-mt-24;
 }
 
 .investorCard {
     @apply relative
-    w-[21.75rem]
-    h-[25.75rem]
-    -mt-[30rem];
+    overflow-hidden
+    -mt-[25rem]
+    xs:-mt-[6.5rem]
+    mr-[6.5rem]
+    xs:mx-auto
+    xl:order-last
+
+    order-first
+    xs:right-0
+    z-0;
+}
+
+.scale {
+    @apply scale-[0.6]
+    xs:scale-100;
+}
+
+.investorManagerWrapper {
+    @apply relative
+    xs:mx-auto
+    overflow-x-hidden
+    overflow-y-hidden
+    order-first
+    xs:order-last;
 }
 
 .investorManager {
     @apply relative
-    w-[32.5rem]
-    h-[19.25rem]
-    -mt-[7.5rem]
-    ml-[13rem];
+    overflow-x-clip
+    overflow-y-clip
+    -right-[16rem]
+    scale-125
+    xs:scale-100
+    xs:ml-[13rem]
+    xs:right-0;
 }
