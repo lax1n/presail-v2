@@ -45,7 +45,8 @@
     xl:ml-16
     md:-mt-32
     order-2
-    align-bottom;
+    align-bottom
+    scrollbar-hide;
 }
 
 .chart {
