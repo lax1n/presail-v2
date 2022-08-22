@@ -47,7 +47,7 @@ const Section0 = () => {
           </div>
         </div>
       </div>
-      <div className={'hidden md:grid'}>
+      <div className={styles.socialProofDesktop}>
         <Image
           alt={'Presail Social Proof'}
           src='/images/socialProofNumbersHorizontal.svg'
@@ -55,7 +55,7 @@ const Section0 = () => {
           height={'149px'}
         />
       </div>
-      <div className={'grid md:hidden'}>
+      <div className={styles.socialProofMobile}>
         <Image
           alt={'Presail Social Proof Vertical'}
           src='/images/VerticalSocialProof.svg'

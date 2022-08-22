@@ -10,8 +10,8 @@ const Section3 = () => {
   return (
     <Section colorScheme={'dark'}>
       <div className={styles.sectionGrid}>
-        <div  className={styles.investorManagerWrapper} data-aos={'fade-up'}>
-          <div className={styles.investorManager}>
+        <div  className={styles.investorManagerWrapper}>
+          <div className={styles.investorManager} data-aos={'fade-up'}>
             <Image
               alt={'Presail Investor Manager'}
               src='/images/06InvestorManager.webp'

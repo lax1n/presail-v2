@@ -1,5 +1,6 @@
 .wrapper {
     @apply w-[20rem]
+    ml-0
     sm:w-[37rem]
     lg:w-[48rem]
     mx-auto
@@ -15,7 +16,8 @@
 }
 
 .quoteRight {
-    @apply mt-[5rem] sm:mt-[7.5rem] lg:mt-[10.5rem] mr-5 lg:mr-0;
+    @apply mt-[8.5rem]
+    lg:mt-[10.5rem];
 }
 
 .header {

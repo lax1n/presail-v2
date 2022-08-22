@@ -26,7 +26,7 @@
     xl:order-last
     relative
     mt-4
-    sm:mt-[5.5rem];
+    sm:mt-[5.5rem] md:max-w-xl lg:max-w-3xl;
 }
 
 .notifications {
@@ -35,4 +35,17 @@
     xl:w-[180px]
     top-0
     right-0;
+}
+
+.socialProofDesktop {
+    @apply hidden
+    md:grid 
+    md:max-w-xl
+    lg:max-w-full
+    mx-auto;
+}
+
+.socialProofMobile {
+    @apply grid
+    md:hidden;
 }

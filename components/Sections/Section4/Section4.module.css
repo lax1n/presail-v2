@@ -3,17 +3,17 @@
     mx-auto
     overflow-x-hidden
     overflow-y-hidden
-    -mt-[10rem]
-    ml-[36rem]
+    -mt-[8rem]
+    lg:-mt-[8rem]
+    xl:-mt-[20rem]
     order-first;
 }
 
 .investorPortal {
     @apply relative
     overflow-x-clip
+    xl:ml-[36rem]
     -right-[5rem]
-    scale-125
-    xs:scale-100
     xs:right-0
     z-0;
 }

@@ -22,8 +22,8 @@ const Section1 = () => {
             id={t('dealsManagement.num')}
           />
         </div>
-        <div className={styles.allDealsWrapper} data-aos='fade-up'>
-          <div className={styles.allDeals}>
+        <div className={styles.allDealsWrapper}>
+          <div className={styles.allDeals} data-aos='fade-up'>
             <Image
               alt={'Presail All Deals'}
               src='/images/01AllDeals.webp'
