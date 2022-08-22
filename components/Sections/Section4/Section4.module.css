@@ -1,7 +1,19 @@
+.investorPortalWrapper {
+    @apply relative
+    mx-auto
+    overflow-x-hidden
+    overflow-y-hidden
+    -mt-[10rem]
+    ml-[36rem]
+    order-first;
+}
+
 .investorPortal {
     @apply relative
-    w-[35.625rem]
-    h-[28.063rem]
-    -mt-[19.875rem]
-    ml-[42rem];
+    overflow-x-clip
+    -right-[5rem]
+    scale-125
+    xs:scale-100
+    xs:right-0
+    z-0;
 }
