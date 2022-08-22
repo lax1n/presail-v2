@@ -1,18 +1,20 @@
 import React from 'react'
 import styles from './Testimonial.module.css'
 import Image from 'next/image'
+import classNames from 'classnames'
 
 interface TestimonialProps {
   header?: string
   description: string
   name?: string
   logoPath?: string
+  className?: string
 }
 
 const Testimonial: React.FC<TestimonialProps> = (props) => {
-  const { header, description, name, logoPath } = props
+  const { header, description, name, logoPath, className } = props
   return (
-    <div className={styles.wrapper}>
+    <div className={classNames(styles.wrapper, className)}>
       <div className={styles.quoteLeft}>
         <Image
           alt={''}

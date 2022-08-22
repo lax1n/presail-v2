@@ -1,19 +1,51 @@
 .sectionGrid {
-    @apply grid
-    grid-cols-2;
+    @apply grid grid-cols-1
+    xl:flex
+    max-w-[25rem]
+    md:max-w-[80rem]
+    mx-auto;
 }
 
 .logo {
     @apply items-start
-    ml-[2rem]
-    sm:ml-[7.5rem]
-    mt-[9.563rem]
-    mb-12;
+    mt-12
+    xl:mt-[9.5rem]
+    mb-12
+    ml-[2.45rem]
+    xl:ml-0;
+}
+
+.margin {
+    @apply mb-12
+    ml-[2.45rem]
+    xl:ml-0;
+}
+
+.table {
+    @apply order-first
+    xl:order-last
+    relative
+    mt-4
+    sm:mt-[5.5rem] md:max-w-xl lg:max-w-3xl;
 }
 
 .notifications {
-    @apply relative
-    w-[180px]
-    -mt-[27rem]
-    ml-[30rem];
+    @apply absolute
+    w-[150px]
+    xl:w-[180px]
+    top-0
+    right-0;
+}
+
+.socialProofDesktop {
+    @apply hidden
+    md:grid 
+    md:max-w-xl
+    lg:max-w-full
+    mx-auto;
+}
+
+.socialProofMobile {
+    @apply grid
+    md:hidden;
 }

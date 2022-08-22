@@ -1,20 +1,83 @@
 .sectionGrid {
     @apply grid
-    grid-cols-2;
+    grid-cols-1
+    xl:grid-cols-2
+    xl:mx-auto
+    xs:overflow-hidden;
+}
+
+.margin {
+    @apply -mt-28
+    xl:mt-0;
+}
+
+.collectContributionsWrapper {
+    @apply relative
+    mx-auto
+    overflow-x-hidden
+    overflow-y-hidden
+    order-first
+    xl:order-last;
 }
 
 .collectContributions {
     @apply relative
-    w-[23.063rem]
-    h-[44.188rem]
-    -mt-[9.5rem];
+    overflow-x-clip
+    -right-[5rem]
+    xs:right-0
+    z-0;
+}
+
+.chartWrapper {
+    @apply relative
+    flex-none
+    w-full
+    ml-0
+    -mt-36
+    xs:mt-0
+    -mb-5
+    xs:mb-0
+    overflow-y-scroll
+    overflow-x-scroll
+    md:max-w-2xl
+    lg:max-w-4xl
+    xl:max-w-full
+    xl:ml-16
+    md:-mt-32
+    order-2
+    align-bottom;
 }
 
 .chart {
     @apply relative
-    w-[60.313rem]
-    h-[28.75rem]
-    mt-[5.5rem]
-    ml-[7.5rem]
-    sm:ml-[13rem];
+    snap-x
+    -right-[10rem]
+    sm:ml-[13rem]
+    xs:right-0
+    lg:max-w-[50rem]
+    xl:max-w-[80rem]
+    lg:mx-auto
+    z-0;
+}
+
+.swipeWrapper {
+    @apply relative
+    ml-[2.45rem]
+    inline-flex
+    md:hidden
+    mb-4
+    antialiased;
+}
+
+.swipe {
+    @apply font-buch
+    text-xs;
+}
+
+.assetManager {
+    @apply grid
+    xl:grid-cols-2
+    xl:mx-auto
+    order-last
+    mb-[9.5rem];
 }

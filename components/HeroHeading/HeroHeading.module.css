@@ -1,21 +1,20 @@
 .wrapper {
-    @apply w-[26rem]
-    ml-[2rem]
-    sm:ml-[7.5rem]
+    @apply w-[17.5rem]
+    md:w-[26rem]
     antialiased;
 }
 
 .title {
     @apply font-kraftig
     text-gunMetal
-    text-3xl
+    text-xl md:text-3xl
     pb-[0.938rem];
 }
 
 .subtitle {
     @apply font-buch
     text-graniteGray
-    text-lg
+    md:text-lg
     pt-[0.938rem];
 }
 

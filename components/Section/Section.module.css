@@ -1,5 +1,8 @@
 .section {
     @apply
+    container
+    max-w-full
+    mx-auto
     w-[33rem]
     xs:w-full
     flex
@@ -12,4 +15,8 @@
 
 .dark {
     @apply bg-gunMetal;
+}
+
+.static {
+    @apply overflow-hidden;
 }

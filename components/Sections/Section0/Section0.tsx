@@ -8,7 +8,7 @@ import {useTranslation} from 'next-i18next'
 import styles from './Section0.module.css'
 import Lottie from 'lottie-react'
 import preSailTable from '@/public/images/PresailTable.json'
-import notifications from '@/public/images/Notefications.json'
+import notifications from '@/public/images/Notifications.json'
 
 const Section0 = () => {
   const { t } = useTranslation('common')
@@ -27,29 +27,42 @@ const Section0 = () => {
           <HeroHeading
             title={t('heroHeading.title')}
             subtitle={t('heroHeading.subtitle')}
-            className={'mb-12'}
+            className={styles.margin}
           />
 
           <Button
             text={t('button.text')}
-            className={'mb-12 ml-[7.5rem]'}
+            className={styles.margin}
           />
-
-          <TertiaryButtonGrid/>
+          <div className={styles.margin}>
+            <TertiaryButtonGrid/>
+          </div>
         </div>
-        <div className={'mt-[5.5rem] mr-[10.5rem]'}>
-          <Lottie animationData={preSailTable} loop={true} />
+        <div className={styles.table}>
+          <div>
+            <Lottie animationData={preSailTable} loop={true} />
+          </div>
           <div className={styles.notifications}>
-            <Lottie animationData={notifications} loop={true} />
+            <Lottie animationData={notifications} loop={false} />
           </div>
         </div>
       </div>
-      <Image
-        alt={'Presail Social Proof'}
-        src='/images/socialProofNumbersHorizontal.svg'
-        width={'726px'}
-        height={'149px'}
-      />
+      <div className={styles.socialProofDesktop}>
+        <Image
+          alt={'Presail Social Proof'}
+          src='/images/socialProofNumbersHorizontal.svg'
+          width={'726px'}
+          height={'149px'}
+        />
+      </div>
+      <div className={styles.socialProofMobile}>
+        <Image
+          alt={'Presail Social Proof Vertical'}
+          src='/images/VerticalSocialProof.svg'
+          width={'294px'}
+          height={'402px'}
+        />
+      </div>
       <div className={'mb-[11.438rem]'}/>
     </Section>
   )

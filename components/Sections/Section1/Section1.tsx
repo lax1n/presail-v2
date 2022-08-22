@@ -10,26 +10,30 @@ const Section1 = () => {
   return (
     <Section colorScheme={'dark'}>
       <div className={styles.sectionGrid}>
-        <SectionHeading
-          num={t('dealsManagement.num')}
-          header={t('dealsManagement.header')}
-          title={t('dealsManagement.title')}
-          paragraph1={t('dealsManagement.paragraph1')}
-          paragraph2={t('dealsManagement.paragraph2')}
-          buttonLink={t('dealsManagement.buttonLink')}
-          colorScheme={t('dealsManagement.colorScheme')}
-          id={t('dealsManagement.num')}
-        />
-        <div className={styles.allDeals} data-aos='fade-up'>
-          <Image
-            alt={'Presail All Deals'}
-            src='/images/01AllDeals.webp'
-            layout={'fill'}
-            objectFit={'contain'}
+        <div className={styles.margin}>
+          <SectionHeading
+            num={t('dealsManagement.num')}
+            header={t('dealsManagement.header')}
+            title={t('dealsManagement.title')}
+            paragraph1={t('dealsManagement.paragraph1')}
+            paragraph2={t('dealsManagement.paragraph2')}
+            buttonLink={t('dealsManagement.buttonLink')}
+            colorScheme={t('dealsManagement.colorScheme')}
+            id={t('dealsManagement.num')}
           />
         </div>
+        <div className={styles.allDealsWrapper}>
+          <div className={styles.allDeals} data-aos='fade-up'>
+            <Image
+              alt={'Presail All Deals'}
+              src='/images/01AllDeals.webp'
+              width={'509'}
+              height={'298'}
+            />
+          </div>
+        </div>
       </div>
-      <div className={'mb-[7rem]'}/>
+      <div className={'mb-[7.5rem]'}/>
     </Section>
   )
 }

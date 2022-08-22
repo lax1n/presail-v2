@@ -38,7 +38,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = (props) => {
     [styles.paragraphDark]: colorScheme === 'dark',
   })
 
-  const nextId = '0' + (parseInt(id!) + 1).toString() // example: id = '01', nextId = '02'
+  const nextId = '0' + (parseInt(id!) + 1).toString()
 
   return (
     <div className={styles.width} id={id}>
