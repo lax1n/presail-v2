@@ -8,7 +8,7 @@ import {useTranslation} from 'next-i18next'
 import styles from './Section0.module.css'
 import Lottie from 'lottie-react'
 import preSailTable from '@/public/images/PresailTable.json'
-import notifications from '@/public/images/Notefications.json'
+import notifications from '@/public/images/Notifications.json'
 
 const Section0 = () => {
   const { t } = useTranslation('common')
@@ -43,7 +43,7 @@ const Section0 = () => {
             <Lottie animationData={preSailTable} loop={true} />
           </div>
           <div className={styles.notifications}>
-            <Lottie animationData={notifications} loop={true} />
+            <Lottie animationData={notifications} loop={false} />
           </div>
         </div>
       </div>
