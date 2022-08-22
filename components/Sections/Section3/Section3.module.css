@@ -1,10 +1,14 @@
 .sectionGrid {
-    @apply grid
+    @apply container
+    grid
     grid-cols-1
-    md:mr-[19rem]
     xl:grid-cols-2
-    xl:max-w-[110rem]
-    xl:-mt-24;
+    mt-5
+    -mb-20
+    xs:mb-0
+    xs:mt-0
+    xl:max-w-[80rem]
+    xl:-mt-16;
 }
 
 .investorCard {
@@ -15,8 +19,8 @@
     mr-[6.5rem]
     xs:mx-auto
     xl:order-last
-
     order-first
+    shrink-0
     xs:right-0
     z-0;
 }
