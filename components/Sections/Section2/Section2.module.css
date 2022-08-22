@@ -54,6 +54,9 @@
     -right-[10rem]
     sm:ml-[13rem]
     xs:right-0
+    lg:max-w-[50rem]
+    xl:max-w-[80rem]
+    lg:mx-auto
     z-0;
 }
 
