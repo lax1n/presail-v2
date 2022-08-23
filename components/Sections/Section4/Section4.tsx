@@ -19,7 +19,7 @@ const Section4 = () => {
           />
         </div>
       </div>
-      <div className={'mt-10 mb-10 xs:ml-[2.45rem] sm:max-w-[80rem] sm:mx-auto'}>
+      <div className={styles.testimonial}>
         <Testimonial
           header={t('testimonial.header')}
           description={t('testimonial.description')}
@@ -27,6 +27,7 @@ const Section4 = () => {
           logoPath={t('testimonial.logoPath')}
         />
       </div>
+      <div className={'mb-[3rem] xs:mb-[6.5rem]'}/>
     </Section>
   )
 }

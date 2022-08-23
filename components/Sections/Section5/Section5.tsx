@@ -17,15 +17,17 @@ const Section5 = () => {
           height={'160px'}
         />
       </div>
-      <SectionHeading
-        num={t('tokenVesting.num')}
-        header={t('tokenVesting.header')}
-        title={t('tokenVesting.title')}
-        paragraph1={t('tokenVesting.paragraph1')}
-        buttonLink={t('tokenVesting.buttonLink')}
-        colorScheme={t('tokenVesting.colorScheme')}
-        id={t('tokenVesting.num')}
-      />
+      <div className={styles.sectionHeading}>
+        <SectionHeading
+          num={t('tokenVesting.num')}
+          header={t('tokenVesting.header')}
+          title={t('tokenVesting.title')}
+          paragraph1={t('tokenVesting.paragraph1')}
+          buttonLink={t('tokenVesting.buttonLink')}
+          colorScheme={t('tokenVesting.colorScheme')}
+          id={t('tokenVesting.num')}
+        />
+      </div>
     </Section>
   )
 }
