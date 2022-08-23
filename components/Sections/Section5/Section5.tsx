@@ -15,6 +15,7 @@ const Section5 = () => {
           src={'/images/Score.svg'}
           width={'964px'}
           height={'160px'}
+          className={styles.scoreScale}
         />
       </div>
       <div className={styles.sectionHeading}>
@@ -28,6 +29,7 @@ const Section5 = () => {
           id={t('tokenVesting.num')}
         />
       </div>
+      <div className={'mb-[7.5rem]'}/>
     </Section>
   )
 }

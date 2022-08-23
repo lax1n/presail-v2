@@ -6,6 +6,7 @@
     mt-5
     xs:mt-0
     xl:-mt-16
+    lg:mx-auto
     -mb-20
     xs:mb-0;
 }
