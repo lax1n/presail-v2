@@ -6,5 +6,10 @@
 .score {
     @apply mx-auto
     -mt-[2.5rem]
-    xs:-mt-[5rem]
+    xs:-mt-[5rem];
+}
+
+.scoreScale {
+    @apply scale-125
+    xs:scale-100;
 }

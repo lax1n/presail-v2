@@ -1,6 +1,25 @@
+.sectionHeading {
+    @apply grid
+    grid-cols-1
+    xl:grid-cols-2
+    xl:mx-auto;
+}
+
+.vestingBarWrapper {
+    @apply relative
+    mx-auto
+    max-w-md
+    lg:max-w-full
+    overflow-x-hidden
+    overflow-y-hidden
+    -mt-[5rem]
+    order-first;
+}
+
 .vestingBar {
     @apply relative
-    -mt-[5rem]
-    ml-[45rem]
-    w-[27.5rem];
+    overflow-x-clip
+    -right-[6.5rem]
+    xs:right-0
+    z-0;
 }
