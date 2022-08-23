@@ -6,10 +6,6 @@
     mx-auto;
 }
 
-.wrapper {
-    @apply max-w-xl;
-}
-
 .logo {
     @apply items-start
     mt-12
