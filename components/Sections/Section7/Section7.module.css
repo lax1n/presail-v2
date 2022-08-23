@@ -1,0 +1,6 @@
+.sectionHeading {
+    @apply mx-auto
+    mb-[6.813rem]
+    -mt-20
+    xs:-mt-10;
+}
