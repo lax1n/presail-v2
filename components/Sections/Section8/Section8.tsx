@@ -19,6 +19,7 @@ const Section8 = () => {
           src={'/images/Compliance.svg'}
           width={'514px'}
           height={'148px'}
+          className={'scale-110 xs:scale-125'}
         />
       </div>
       <div className={styles.avatarGrid}>
@@ -34,11 +35,13 @@ const Section8 = () => {
           email={t('avatar.email')}
         />
       </div>
-      <Caption
-        title={t('captionBackers.title')}
-        description={<Trans i18nKey='captionBackers.description' />}
-        className={styles.captionBackers}
-      />
+      <div className={styles.smallCaption}>
+        <Caption
+          title={t('captionBackers.title')}
+          description={<Trans i18nKey='captionBackers.description' />}
+          className={styles.captionBackers}
+        />
+      </div>
       <div className={styles.backerGrid}>
         <Backer
           name={t('backerAvlok.name')}
@@ -59,9 +62,9 @@ const Section8 = () => {
           companyImgAlt={t('backerAleksander.companyAlt')}
         />
       </div>
-      <Companies
-        className={'ml-[16.375rem] mb-[5.25rem]'}
-      />
+      {/*<Companies*/}
+      {/*  className={'ml-[16.375rem] mb-[5.25rem]'}*/}
+      {/*/>*/}
     </Section>
   )
 }
