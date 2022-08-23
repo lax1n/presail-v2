@@ -39,7 +39,7 @@ const Section0 = () => {
           </div>
         </div>
         <div className={styles.table}>
-          <div>
+          <div className={styles.tableWidth}>
             <Lottie animationData={preSailTable} loop={true} />
           </div>
           <div className={styles.notifications}>

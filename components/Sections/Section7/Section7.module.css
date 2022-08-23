@@ -3,6 +3,7 @@
     mb-[7rem]
     -mt-20
     xs:-mt-10
-    sm:w-[52.5rem]
+    md:w-[48.5rem]
+    lg:w-[52.5rem]
     mx-auto;
 }

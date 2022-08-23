@@ -1,9 +1,13 @@
 .sectionGrid {
     @apply grid grid-cols-1
     xl:flex
-    max-w-[25rem]
+    max-w-[26rem]
     md:max-w-[80rem]
     mx-auto;
+}
+
+.wrapper {
+    @apply max-w-xl;
 }
 
 .logo {
@@ -26,7 +30,16 @@
     xl:order-last
     relative
     mt-4
-    sm:mt-[5.5rem] md:max-w-xl lg:max-w-3xl;
+    sm:mt-[5.5rem]
+    xl:mt-[7.5rem];
+}
+
+.tableWidth {
+    @apply w-[22.5rem]
+    sm:w-[26rem]
+    md:w-[36rem]
+    lg:w-[42rem]
+    xl:w-[48rem];
 }
 
 .notifications {
@@ -39,7 +52,7 @@
 
 .socialProofDesktop {
     @apply hidden
-    md:grid 
+    md:grid
     md:max-w-xl
     lg:max-w-full
     mx-auto;
