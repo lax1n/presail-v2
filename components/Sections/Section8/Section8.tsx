@@ -19,7 +19,16 @@ const Section8 = () => {
           src={'/images/Compliance.svg'}
           width={'514px'}
           height={'148px'}
-          className={'scale-110 xs:scale-125'}
+          className={'scale-125'}
+        />
+      </div>
+      <div className={styles.complianceMobile} data-aos={'zoom-in'}>
+        <Image
+          alt={'Presail Compliance'}
+          src={'/images/ComplianceMobile.svg'}
+          width={'144px'}
+          height={'416px'}
+          className={'scale-150'}
         />
       </div>
       <div className={styles.avatarGrid}>
@@ -62,9 +71,9 @@ const Section8 = () => {
           companyImgAlt={t('backerAleksander.companyAlt')}
         />
       </div>
-      {/*<Companies*/}
-      {/*  className={'ml-[16.375rem] mb-[5.25rem]'}*/}
-      {/*/>*/}
+      <Companies
+        className={'mb-[5.25rem]'}
+      />
     </Section>
   )
 }

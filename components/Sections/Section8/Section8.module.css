@@ -29,6 +29,16 @@
 
 .compliance {
     @apply
+    hidden
+    sm:grid
     mx-auto
     -mt-[5rem];
+}
+
+.complianceMobile {
+    @apply
+    sm:hidden
+    mx-auto
+    -mt-[5rem]
+    -mb-7;
 }
