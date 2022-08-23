@@ -10,22 +10,26 @@ const Section9 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
-      <div className={styles.wrapper}>
-        <div className={styles.logo}>
-          <Image
-            alt={'Presail Logo Light'}
-            src='/images/PresailLight.svg'
-            width={'112px'}
-            height={'28px'}
-          />
+      <div className={styles.margin}>
+        <div className={styles.wrapper}>
+          <div className={styles.logo}>
+            <Image
+              alt={'Presail Logo Light'}
+              src='/images/PresailLight.svg'
+              width={'112px'}
+              height={'28px'}
+            />
+          </div>
+          <div  className={styles.footer}>
+            <Footer
+              date={t('footer.date')}
+              description={t('footer.description')}
+            />
+          </div>
+          <div className={styles.footerLinkGrid}>
+            <FooterLinkGrid/>
+          </div>
         </div>
-        <div>
-          <Footer
-            date={t('footer.date')}
-            description={t('footer.description')}
-          />
-        </div>
-        <FooterLinkGrid/>
       </div>
     </Section>
   )

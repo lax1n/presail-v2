@@ -22,7 +22,7 @@ const AllSections = () => {
       <Section6/>
       <Section7/>
       <Section8/>
-      {/*<Section9/>*/}
+      <Section9/>
     </>
   )
 }
