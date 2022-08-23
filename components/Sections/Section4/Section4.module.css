@@ -17,3 +17,11 @@
     xs:right-0
     z-0;
 }
+
+.testimonial {
+    @apply mt-10
+    mb-10
+    xs:ml-[2.45rem]
+    sm:max-w-[80rem]
+    sm:mx-auto;
+}

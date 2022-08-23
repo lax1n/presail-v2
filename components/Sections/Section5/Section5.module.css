@@ -1,5 +1,10 @@
+.sectionHeading {
+    @apply xl:grid
+    xl:grid-cols-2
+    xl:mx-auto;
+}
 .score {
-    @apply relative
-    -mt-[5rem]
-    ml-[12.5rem];
+    @apply mx-auto
+    -mt-[2.5rem]
+    xs:-mt-[5rem]
 }
