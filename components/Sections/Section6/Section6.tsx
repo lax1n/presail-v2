@@ -3,7 +3,7 @@ import Section from '@/components/Section/Section'
 import SectionHeading from '@/components/SectionHeading/SectionHeading'
 import {useTranslation} from 'next-i18next'
 import Lottie from 'lottie-react'
-import vestingBar from '@/public/images/Vesting Bar.json'
+import vestingBar from '@/public/images/Vesting progress.json'
 import styles from './Section6.module.css'
 
 const Section6 = () => {
@@ -12,7 +12,7 @@ const Section6 = () => {
     <Section>
       <div className={styles.vestingBarWrapper}>
         <div className={styles.vestingBar}>
-          <Lottie animationData={vestingBar} loop={true} />
+          <Lottie animationData={vestingBar} loop={false} />
         </div>
       </div>
       <div className={styles.sectionHeading}>

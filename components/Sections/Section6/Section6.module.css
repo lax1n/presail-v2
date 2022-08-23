@@ -13,7 +13,9 @@
     overflow-x-hidden
     overflow-y-hidden
     -mt-[5rem]
-    order-first;
+    order-first
+    -mb-10
+    xs:-mb-4;
 }
 
 .vestingBar {
