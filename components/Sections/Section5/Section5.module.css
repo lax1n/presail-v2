@@ -3,10 +3,19 @@
     xl:grid-cols-2
     xl:mx-auto;
 }
-.score {
-    @apply mx-auto
+.securityBadgesDesktop {
+    @apply hidden
+    sm:grid
+    mx-auto
     -mt-[2.5rem]
     xs:-mt-[5rem];
+}
+
+.securityBadgesMobile {
+    @apply grid
+    sm:hidden
+    mx-auto
+    -mt-[4rem];
 }
 
 .scoreScale {

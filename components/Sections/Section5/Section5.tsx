@@ -9,13 +9,21 @@ const Section5 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
-      <div className={styles.score} data-aos={'zoom-in'}>
+      <div className={styles.securityBadgesDesktop} data-aos={'zoom-in'}>
         <Image
           alt={'Presail Security Badges'}
           src={'/images/Section5/SecurityBadgesHorizontal.svg'}
           width={'964px'}
           height={'160px'}
           className={styles.scoreScale}
+        />
+      </div>
+      <div className={styles.securityBadgesMobile} data-aos={'zoom-in'}>
+        <Image
+          alt={'Presail Security Badges'}
+          src={'/images/Section5/SecurityBadgesVertical.svg'}
+          width={'310px'}
+          height={'464px'}
         />
       </div>
       <div className={styles.sectionHeading}>
