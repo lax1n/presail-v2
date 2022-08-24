@@ -15,8 +15,7 @@
 }
 
 .quoteRight {
-    @apply mt-[8.5rem]
-    lg:mt-[10.5rem];
+    @apply mt-[10.5rem];
 }
 
 .header {
@@ -35,9 +34,8 @@
     font-buch
     font-extrabold
     text-transparent
-    text-[1.5rem]
-    sm:text-[1.75rem]
-    lg:text-[2.5rem]
+    text-lg
+    sm:text-2xl
     bg-clip-text
     bg-gradient-to-r
     from-ultramarineBlue
@@ -48,7 +46,7 @@
 .line {
     @apply h-px
     mb-6
-    mt-[0.875rem]
+    mt-[0.5rem]
     bg-graniteGray;
 }
 
@@ -65,5 +63,5 @@
 }
 
 .logo {
-    @apply  ml-[5rem] sm:ml-[20rem] lg:ml-[33.5rem];
+    @apply  ml-[9.5rem] sm:ml-[25.5rem] lg:ml-[36.5rem];
 }

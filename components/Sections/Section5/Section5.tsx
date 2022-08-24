@@ -24,6 +24,7 @@ const Section5 = () => {
           header={t('tokenVesting.header')}
           title={t('tokenVesting.title')}
           paragraph1={t('tokenVesting.paragraph1')}
+          paragraph2={t('tokenVesting.paragraph2')}
           buttonLink={t('tokenVesting.buttonLink')}
           colorScheme={t('tokenVesting.colorScheme')}
           id={t('tokenVesting.num')}

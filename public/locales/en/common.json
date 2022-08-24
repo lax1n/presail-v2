@@ -1,7 +1,7 @@
 {
   "heroHeading": {
-    "title": "A single source of truth for managing all web 3.0 ventures.",
-    "subtitle": "Efficiently set up and organize your token distribution and investment."
+    "title": "The #1 tool for VC's to automate and manage presale workflows.",
+    "subtitle": "Automate your web 3 fundraising and token vesting operations. Keep a single data source of all your presale investments, for you and your investors."
   },
   "button": {
     "text": "Schedule demo"
@@ -35,8 +35,8 @@
   "dealsManagement": {
     "num": "01",
     "header": "Deals management",
-    "title": "Set up and keep all deals in one place, track deal status and update project information.",
-    "paragraph1": "All deals in one place. Manage everything that is going on, at a high level - or narrow in on a specific user. Import pre-existing deals, or add spreadsheets to running deals.",
+    "title": "Set up and keep all deals in one place.",
+    "paragraph1": "Track deal status, update project information, and manage everything related to your deals in one place. You can also import pre-existing deals, or add spreadsheets to running deals.",
     "paragraph2": "Become a VC superhero",
     "buttonLink": "Collect contributions",
     "colorScheme": "dark"
@@ -44,59 +44,61 @@
   "collectContributions": {
     "num": "02",
     "header": "Collect contributions",
-    "title": "Simplify the contribution process for you and your investors without any manual work.",
-    "paragraph1": "Presail automatically reconciles every investor, project, sheet, and form. Configure access at a tier-based, whitelist, or public level. Set up multiple pools with different rules, fees & min/max limits.",
-    "paragraph2": "Split SAFT deals are supported with multiple token prices. Enable KYC / AML at choice. And create a custom fundraising page with your specific requirements - be it terms, deal info, and brand.",
+    "title": "Simplify the contribution process for you and your investors.",
+    "paragraph1": "Presail automatically reconciles every investor, project, sheet, and form - eliminating tons of manual work. Configure access at a tier-based, whitelist, or public level. Set up multiple pools with different rules, fees & min/max limits.",
+    "paragraph2": "You can enable KYC/AML at choice, and the fundraising page can be customized with your specific requirements - be it terms, deal info, or brand.",
     "buttonLink": "Asset management",
     "colorScheme": "light"
   },
   "assetManager": {
     "num": "03",
     "header": "Asset manager",
-    "title": "Manage your investors and their assets with ease.",
-    "paragraph1": "See cap and token tables, manage and edit wallet and user information. Presail acts as a single source of truth. You can enable a partial or full refund, even OTC trades. All of it is logged and stored on Presail, guaranteeing you accurate data and a complete overview.",
+    "title": "Manage your investors and assets with ease.",
+    "paragraph1": "Presail acts as a single source of truth. See cap and token tables, manage and edit wallet and user information. You can enable a partial or full refund, even OTC trades. All of it is logged and stored on Presail, guaranteeing you accurate data and a complete overview.",
     "buttonLink": "Investor portal",
     "colorScheme": "light"
   },
   "investorPortal": {
     "num": "04",
     "header": "Investor portal",
-    "title": "Spend less time on support. Let your investors view their investments, vesting progress and project updates.",
-    "paragraph1": "Say goodbye to replying to hundreds of Telegram and Discord support messages.",
-    "paragraph2": "Your clients will have a complete overview. They get to see data on P&L and ROI at a deal and holistic level. While always being up-to-date on when they received token distributions and how far along the vesting schedule they are.",
+    "title": "A dashboard where your investors can track everything.",
+    "paragraph1": "Say goodbye to replying to hundreds of Telegram and Discord support messages, and let your investors view investments, vesting progress and project updates automatically.",
+    "paragraph2": "Investors get to see data on P&L and ROI at a deal and holistic level, and stay up-to-date on when they receive token distributions and how far along the vesting schedule they are.",
     "buttonLink":"Token vesting",
     "colorScheme":"dark"
   },
   "tokenVesting": {
     "num": "05",
     "header": "Token vesting",
-    "title": "Securely distribute tokens on a vesting schedule. Say goodbye to spreadsheets.",
-    "paragraph1": "Token allocations get calculated and distributed within Presail. Get visibility of the vesting progress and the number of tokens sent to your investors — no need to use spreadsheets or manual distribution tools again.",
+    "title": "Securely distribute tokens on a vesting schedule.",
+    "paragraph1": "Get an overvíew of the vesting progress and the exact number of tokens you need to distribute. Allocations are automatically calculated in your cap table breakdown.",
+    "paragraph2": "Easily distribute tokens with Presails smart contract on multiple chains - no need to use spreadsheets or manual distribution tools again.",
     "buttonLink":"AlloSwapᵀᴹ / OTC",
     "colorScheme":"dark"
   },
   "alloSwap": {
     "num": "06",
     "header": "AlloSwapᵀᴹ / OTC",
-    "title": "Enable allocation swaps between investors. Facilitate OTC trades, and know that your cap table is 100% up-to-date.",
-    "paragraph1": "Enable investors to partially or fully trade their allocations. Presail ensures the cap table is updated and accurate. You can view past trades to understand how the cap table got to what it is today.",
+    "title": "Enable OTC trades and swap allocations.",
+    "paragraph1": "Allow investors to partially or fully trade their allocations while keeping the cap table 100% accurate and up to date at all times.",
+    "paragraph2": "All changes are logged, and you can view past trades to understand how the cap table got to what it is today.",
     "colorScheme":"light"
   },
   "testimonial": {
     "header": "Testimonial",
-    "description": "Presail was the natural choice for us to go with - every single aspect of their platform has made us 1000X more efficient. It’s smooth sailing so to speak.",
-    "name": "John Doe Smith",
+    "description": "Thanks to Presail, we have automated a lot of operational tasks in our investment group. We use Presail to manage our deals, collect contributions, and get detailed allocation overviews of all our investors. Not only does this save us time, but it also helps us reduce scam-attempts by a significant amount.",
+    "name": "Andy",
     "logoPath": "/images/DuckDAO.svg"
   },
   "bestOption": {
     "header": "The best option",
-    "title": "Compliant & established.",
-    "paragraph1": "Our philosophy is trust and availability. We’re always a DM away. By investing in audits, regulatory assessments, and security rundowns - you'll have the most secure and reliant tool at your disposal.",
+    "title": "Compliant, established & work with only a select clientele.",
+    "paragraph1": "Our philosophy is trust and availability. We’re always a DM away. And invest in audits, regulatory assessments, and security rundowns - so you’ll have the most secure and reliant tool at your disposal.",
     "colorScheme": "dark"
   },
   "captionGetInTouch": {
     "title": "Get in touch",
-    "description": "The Presail team has over 100 years of experience in development, security, finance, and design. We strive to define how token management will work in web 3.0 at a root level and are proud to serve and be trusted by the best organizations."
+    "description": "The Presail team has over 50 years of experience in development, security, finance, and design. We strive to define how token management will work in web 3.0 at a root level and are proud to serve and be trusted by the best organizations."
   },
   "avatar": {
     "src": "/images/Backers/EvenPresail.svg",
@@ -125,7 +127,7 @@
   },
   "captionBackers": {
     "title": "Presail backers",
-    "description": "Presail is backed by <strong>Kraken Ventures, Global Founders Capital, Skyfall, Weekend Fund</strong>, the COO of <strong>Axie Infinity</strong>, and many more."
+    "description": "Presail is backed by <strong>Kraken Ventures, Global Founders Capital, Skyfall, Weekend Fund</strong>, the <strong>COO of Axie Infinity</strong>, and many more."
   },
   "companies": {
     "weekendFund": {
@@ -166,19 +168,19 @@
   "footerLink": {
     "github": {
       "name": "Github",
-      "href": "https://github.com/"
+      "href": "https://github.com/datablock-ai/"
     },
-    "medium": {
-      "name": "Medium",
-      "href": "https://medium.com/"
+    "telegram": {
+      "name": "Telegram",
+      "href": "https://t.me/presailcom/"
     },
     "linkedIn": {
       "name": "LinkedIn",
-      "href": "https://www.linkedin.com/"
+      "href": "https://www.linkedin.com/company/presail-web3/"
     },
     "twitter": {
       "name": "Twitter",
-      "href": "https://twitter.com/"
+      "href": "https://twitter.com/presailcom/"
     }
   }
 }

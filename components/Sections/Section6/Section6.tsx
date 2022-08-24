@@ -42,6 +42,7 @@ const Section6 = () => {
           header={t('alloSwap.header')}
           title={t('alloSwap.title')}
           paragraph1={t('alloSwap.paragraph1')}
+          paragraph2={t('alloSwap.paragraph2')}
           colorScheme={t('alloSwap.colorScheme')}
           id={t('alloSwap.num')}
         />

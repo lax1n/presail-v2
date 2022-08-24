@@ -7,8 +7,8 @@ const FooterLinkGrid = () => {
   const { t } = useTranslation('common')
 
   const footerLinkData: { name: string, href: string }[] = [
+    {name:t('footerLink.telegram.name'), href: t('footerLink.telegram.href')},
     {name: t('footerLink.github.name'), href: t('footerLink.github.href')},
-    {name:t('footerLink.medium.name'), href: t('footerLink.medium.href')},
     {name:t('footerLink.linkedIn.name'), href: t('footerLink.linkedIn.href')},
     {name:t('footerLink.twitter.name'), href: t('footerLink.twitter.href')},
   ]
