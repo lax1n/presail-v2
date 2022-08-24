@@ -26,7 +26,7 @@ const Section1 = () => {
           <div className={styles.allDeals} data-aos='fade-up'>
             <Image
               alt={'Presail All Deals'}
-              src='/images/Section1/AllDeals.webp'
+              src='/images/Section1/AllDeals.svg'
               width={'509'}
               height={'298'}
             />
