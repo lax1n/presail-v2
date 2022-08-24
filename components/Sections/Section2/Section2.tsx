@@ -50,21 +50,13 @@ const Section2 = () => {
           height={'232px'}
         />
       </div>
-      <div className={styles.chartWrapper}>
-        <div className={styles.chart} data-aos={'zoom-in'}>
-          <div className={styles.chartScroll}>
-            <Image
-              alt={'Presail Chart'}
-              src='/images/Section2/Flowchart.svg'
-              width={'965px'}
-              height={'460px'}
-            />
-          </div>
-        </div>
-        <div className={styles.swipeWrapper}>
-          <div className={styles.swipe}>Swipe</div>
-          <ArrowRight size={16} className={'items-stretch'}/>
-        </div>
+      <div className={styles.chartWrapper}  data-aos={'zoom-in'}>
+        <Image
+          alt={'Presail Chart'}
+          src='/images/Section2/Flowchart.svg'
+          width={'965px'}
+          height={'460px'}
+        />
       </div>
       <div className={styles.assetManager}>
         <SectionHeading
