@@ -12,11 +12,9 @@ const Button: React.FC<ButtonProps> = (props) => {
   const { text, className } = props
 
   return (
-    <div>
-      <button data-cal-link='even-presail/30min' className={classNames(styles.btn, className)}>
-        {text}
-      </button>
-    </div>
+    <button data-cal-link="even-presail/30min" className={classNames(styles.btn, className)}>
+      {text}
+    </button>
   )
 }
 
