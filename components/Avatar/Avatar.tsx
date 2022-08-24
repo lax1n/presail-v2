@@ -31,12 +31,12 @@ const Avatar: React.FC<AvatarProps> = (props) => {
         {occupation}
       </div>
       <Contact
-        src={'/images/Telegram.svg'}
+        src={'/images/Other/Telegram.svg'}
         contactDetails={telegram}
         alt={'Telegram'}
       />
       <Contact
-        src={'/images/Envelope.svg'}
+        src={'/images/Other/Envelope.svg'}
         contactDetails={email}
         alt={'Email'}
       />
