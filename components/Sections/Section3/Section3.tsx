@@ -14,23 +14,24 @@ const Section3 = () => {
           <div className={styles.investorManager} data-aos={'fade-up'}>
             <Image
               alt={'Presail Investor Manager'}
-              src='/images/06InvestorManager.webp'
+              src='/images/Section3/InvestorManager.webp'
               width={'520px'}
               height={'308px'}
+              className={styles.scaleInvestorManager}
             />
           </div>
         </div>
         <div className={styles.investorCard} data-aos={'fade-left'}>
           <Image
             alt={'Presail Investor Card'}
-            src='/images/04InvestorCard.webp'
+            src='/images/Section3/InvestorCard.webp'
             width={'348px'}
             height={'412px'}
-            className={styles.scale}
+            className={styles.scaleInvestorCard}
           />
         </div>
       </div>
-      <div className={'grid grid-cols-2 mx-auto'}>
+      <div className={styles.sectionHeading}>
         <SectionHeading
           num={t('investorPortal.num')}
           header={t('investorPortal.header')}

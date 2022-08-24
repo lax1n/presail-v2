@@ -15,7 +15,7 @@ const Section9 = () => {
           <div className={styles.logo}>
             <Image
               alt={'Presail Logo Light'}
-              src='/images/PresailLight.svg'
+              src='/images/Section9/PresailLight.svg'
               width={'112px'}
               height={'28px'}
             />

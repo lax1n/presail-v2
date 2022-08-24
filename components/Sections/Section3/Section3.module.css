@@ -25,8 +25,8 @@
     z-0;
 }
 
-.scale {
-    @apply scale-[0.6]
+.scaleInvestorCard {
+    @apply scale-[0.75]
     xs:scale-100;
 }
 
@@ -44,8 +44,17 @@
     overflow-x-clip
     overflow-y-clip
     -right-[16rem]
-    scale-125
-    xs:scale-100
     xs:ml-[13rem]
     xs:right-0;
+}
+
+.scaleInvestorManager {
+    @apply scale-110
+    xs:scale-100;
+}
+
+.sectionHeading {
+    @apply grid
+    grid-cols-2
+    mx-auto;
 }

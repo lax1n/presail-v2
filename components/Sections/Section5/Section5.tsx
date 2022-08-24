@@ -11,8 +11,8 @@ const Section5 = () => {
     <Section colorScheme={'dark'}>
       <div className={styles.score} data-aos={'zoom-in'}>
         <Image
-          alt={'Presail Score'}
-          src={'/images/Score.svg'}
+          alt={'Presail Security Badges'}
+          src={'/images/Section5/SecurityBadgesHorizontal.svg'}
           width={'964px'}
           height={'160px'}
           className={styles.scoreScale}

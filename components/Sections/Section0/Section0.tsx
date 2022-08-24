@@ -7,8 +7,8 @@ import Section from '@/components/Section/Section'
 import {useTranslation} from 'next-i18next'
 import styles from './Section0.module.css'
 import Lottie from 'lottie-react'
-import preSailTable from '@/public/images/PresailTable.json'
-import notifications from '@/public/images/Notifications.json'
+import preSailTable from '@/public/images/Section0/PresailTable.json'
+import notifications from '@/public/images/Section0/Notifications.json'
 
 const Section0 = () => {
   const { t } = useTranslation('common')
@@ -19,7 +19,7 @@ const Section0 = () => {
           <div className={styles.logo}>
             <Image
               alt={'Presail Logo'}
-              src='/images/Presail.svg'
+              src='/images/Section0/Presail.svg'
               width={'112px'}
               height={'28px'}
             />
@@ -50,7 +50,7 @@ const Section0 = () => {
       <div className={styles.socialProofDesktop}>
         <Image
           alt={'Presail Social Proof'}
-          src='/images/socialProofNumbersHorizontal.svg'
+          src='/images/Section0/socialProofHorizontal.svg'
           width={'726px'}
           height={'149px'}
         />
@@ -58,7 +58,7 @@ const Section0 = () => {
       <div className={styles.socialProofMobile}>
         <Image
           alt={'Presail Social Proof Vertical'}
-          src='/images/VerticalSocialProof.svg'
+          src='/images/Section0/socialProofVertical.svg'
           width={'294px'}
           height={'402px'}
         />
