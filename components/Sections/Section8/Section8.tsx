@@ -16,7 +16,7 @@ const Section8 = () => {
       <div className={styles.compliance} data-aos={'zoom-in'}>
         <Image
           alt={'Presail Compliance'}
-          src={'/images/Compliance.svg'}
+          src={'/images/Section8/Compliance.svg'}
           width={'514px'}
           height={'148px'}
           className={'scale-125'}
@@ -25,7 +25,7 @@ const Section8 = () => {
       <div className={styles.complianceMobile} data-aos={'zoom-in'}>
         <Image
           alt={'Presail Compliance'}
-          src={'/images/ComplianceMobile.svg'}
+          src={'/images/Section8/ComplianceMobile.svg'}
           width={'144px'}
           height={'416px'}
           className={'scale-150'}

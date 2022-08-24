@@ -23,7 +23,6 @@
 .collectContributions {
     @apply relative
     overflow-x-clip
-    -right-[5rem]
     xs:right-0
     z-0;
 }
@@ -59,6 +58,14 @@
     xl:max-w-[80rem]
     lg:mx-auto
     z-0;
+}
+
+.chartScroll {
+    @apply overflow-auto
+    snap-start
+    scroll-smooth
+    w-[48rem]
+    md:w-full;
 }
 
 .swipeWrapper {

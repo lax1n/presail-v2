@@ -3,7 +3,7 @@ import Section from '@/components/Section/Section'
 import SectionHeading from '@/components/SectionHeading/SectionHeading'
 import {useTranslation} from 'next-i18next'
 import Lottie from 'lottie-react'
-import vestingBar from '@/public/images/Vesting progress.json'
+import vestingBar from '@/public/images/Section6/VestingProgress.json'
 import styles from './Section6.module.css'
 
 const Section6 = () => {

@@ -27,7 +27,7 @@ const Section2 = () => {
           <div className={styles.collectContributions}>
             <Image
               alt={'Presail Collect Contributions'}
-              src='/images/02CollectContributions.webp'
+              src='/images/Section2/CollectContributions.webp'
               width={'367px'}
               height={'668px'}
             />
@@ -36,10 +36,10 @@ const Section2 = () => {
       </div>
       <div className={styles.chartWrapper}>
         <div className={styles.chart} data-aos={'zoom-in'}>
-          <div className={'overflow-auto snap-start scroll-smooth w-[48rem] md:w-full'}>
+          <div className={styles.chartScroll}>
             <Image
               alt={'Presail Chart'}
-              src='/images/03Chart.webp'
+              src='/images/Section2/Flowchart.webp'
               width={'965px'}
               height={'460px'}
             />
