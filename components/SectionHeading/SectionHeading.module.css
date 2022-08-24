@@ -36,6 +36,7 @@
     text-xl
     sm:text-2xl
     leading-none
+    font-bold
     mb-4;
 }
 

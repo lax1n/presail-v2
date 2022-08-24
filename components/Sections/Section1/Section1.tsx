@@ -27,8 +27,8 @@ const Section1 = () => {
             <Image
               alt={'Presail All Deals'}
               src='/images/Section1/AllDeals.svg'
-              width={'509'}
-              height={'298'}
+              width={'611'}
+              height={'358'}
             />
           </div>
         </div>
