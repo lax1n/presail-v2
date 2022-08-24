@@ -27,6 +27,20 @@
     z-0;
 }
 
+.supportedChainsDesktop {
+    @apply hidden
+    sm:grid
+    xl:grid-cols-2
+    xl:-mt-[14rem]
+    mx-auto;
+}
+
+.supportedChainsMobile {
+    @apply grid
+    sm:hidden
+    mx-auto;
+}
+
 .chartWrapper {
     @apply relative
     flex-none

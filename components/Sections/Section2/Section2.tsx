@@ -34,6 +34,22 @@ const Section2 = () => {
           </div>
         </div>
       </div>
+      <div className={styles.supportedChainsDesktop}>
+        <Image
+          alt={'Presail Supported Chains'}
+          src='/images/Section2/SupportedChainsDesktop.svg'
+          width={'535px'}
+          height={'183px'}
+        />
+      </div>
+      <div className={styles.supportedChainsMobile}>
+        <Image
+          alt={'Presail Supported Chains'}
+          src='/images/Section2/SupportedChainsMobile.svg'
+          width={'307px'}
+          height={'232px'}
+        />
+      </div>
       <div className={styles.chartWrapper}>
         <div className={styles.chart} data-aos={'zoom-in'}>
           <div className={styles.chartScroll}>
