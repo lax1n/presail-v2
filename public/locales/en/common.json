@@ -99,7 +99,7 @@
     "description": "The Presail team has over 100 years of experience in development, security, finance, and design. We strive to define how token management will work in web 3.0 at a root level and are proud to serve and be trusted by the best organizations."
   },
   "avatar": {
-    "src": "/images/EvenPresail.webp",
+    "src": "/images/Backers/EvenPresail.svg",
     "name": "Even Bergan Bugge",
     "occupation": "Account Excecutive",
     "telegram": "@pacyos",
@@ -108,8 +108,8 @@
   "backerAvlok": {
     "name": "Avlok Kohli",
     "occupation": "CEO, AngelList Venture",
-    "backerImgSrc": "/images/AvlokKohli.webp",
-    "companyImgSrc": "/images/AngelList.svg",
+    "backerImgSrc": "/images/Backers/AvlokKohli.svg",
+    "companyImgSrc": "/images/Backers/AngelList.svg",
     "companyImgWidth":"103px",
     "companyImgHeight":"14px",
     "companyAlt": "AngelList logo"
@@ -117,8 +117,8 @@
   "backerAleksander": {
     "name": "Aleksander Larsen",
     "occupation": "COO Sky Mavis / Axie Infinity",
-    "backerImgSrc": "/images/Aleksander.webp",
-    "companyImgSrc": "/images/SkyAxie.svg",
+    "backerImgSrc": "/images/Backers/AleksanderLarsen.svg",
+    "companyImgSrc": "/images/Backers/SkyAxie.svg",
     "companyImgWidth":"95px",
     "companyImgHeight":"14px",
     "companyAlt": "AxieInfinity"
@@ -130,31 +130,31 @@
   "companies": {
     "weekendFund": {
       "alt": "Weekend Fund",
-      "src": "/images/WeekendFundLogo.webp",
+      "src": "/images/Companies/WeekendFund.svg",
       "width": "160px",
       "height": "32px"
     },
     "kraken": {
       "alt": "Kraken Ventures",
-      "src": "/images/KrakenLogo.webp",
+      "src": "/images/Companies/KrakenVentures.svg",
       "width": "184px",
       "height": "16px"
     },
     "sno": {
       "alt": "SNO",
-      "src": "/images/SnoLogo.webp",
+      "src": "/images/Companies/sno.svg",
       "width": "62px",
       "height": "32px"
     },
     "skyfall": {
       "alt": "Skyfall",
-      "src": "/images/SkyfallLogo.webp",
+      "src": "/images/Companies/Skyfall.svg",
       "width": "160px",
       "height": "40px"
     },
     "gfc": {
       "alt": "GFC",
-      "src": "/images/GFCLogo.webp",
+      "src": "/images/Companies/GFC.svg",
       "width": "59px",
       "height": "24px"
     }
