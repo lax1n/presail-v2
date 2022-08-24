@@ -1,6 +1,6 @@
 .wrapper {
     @apply w-[17.5rem]
-    md:w-[26rem]
+    md:w-[28.75rem]
     antialiased;
 }
 
