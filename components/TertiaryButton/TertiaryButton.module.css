@@ -22,6 +22,6 @@
 
 .arrow {
     @apply absolute
-    px-[9rem]
+    px-[9.9rem]
     active:animate-moveRight;
 }
