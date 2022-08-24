@@ -29,6 +29,8 @@
 
 .supportedChainsDesktop {
     @apply hidden
+    sm:-mb-[12rem]
+    md:mb-0
     sm:grid
     xl:grid-cols-2
     xl:-mt-[14rem]
@@ -38,62 +40,19 @@
 .supportedChainsMobile {
     @apply grid
     sm:hidden
-    mx-auto;
+    mx-auto
+    -mb-[12rem];
 }
 
 .chartWrapper {
-    @apply relative
-    flex-none
-    w-full
-    ml-0
-    -mt-36
-    xs:mt-0
-    -mb-5
-    xs:mb-0
-    overflow-y-scroll
-    overflow-x-scroll
+    @apply hidden
+    md:grid
+    mt-[10rem]
+    -mb-[10rem]
+    mx-auto
     md:max-w-2xl
     lg:max-w-4xl
     xl:max-w-full
-    xl:ml-16
-    md:-mt-32
-    order-2
-    align-bottom
-    scrollbar-hide;
-}
-
-.chart {
-    @apply relative
-    snap-x
-    -right-[10rem]
-    sm:ml-[13rem]
-    xs:right-0
-    lg:max-w-[50rem]
-    xl:max-w-[80rem]
-    lg:mx-auto
-    z-0;
-}
-
-.chartScroll {
-    @apply overflow-auto
-    snap-start
-    scroll-smooth
-    w-[48rem]
-    md:w-full;
-}
-
-.swipeWrapper {
-    @apply relative
-    ml-[2.45rem]
-    inline-flex
-    md:hidden
-    mb-4
-    antialiased;
-}
-
-.swipe {
-    @apply font-buch
-    text-xs;
 }
 
 .assetManager {
