@@ -2,17 +2,38 @@ import React from 'react'
 import Section from '@/components/Section/Section'
 import SectionHeading from '@/components/SectionHeading/SectionHeading'
 import {useTranslation} from 'next-i18next'
-import Lottie from 'lottie-react'
+import Lottie, {Action} from 'lottie-react'
 import vestingBar from '@/public/images/Section6/VestingProgress.json'
 import styles from './Section6.module.css'
 
+interface Interactivity {
+  mode: 'scroll' | 'cursor'
+  actions: Action[]
+}
+
 const Section6 = () => {
   const { t } = useTranslation('common')
+
+  const interactivity: Interactivity = {
+    mode: 'scroll',
+    actions: [
+      {
+        visibility: [0.1, 1.0],
+        type: 'loop',
+        frames: [0],
+      },
+    ]
+  }
+
   return (
     <Section>
       <div className={styles.vestingBarWrapper}>
         <div className={styles.vestingBar}>
-          <Lottie animationData={vestingBar} loop={false} />
+          <Lottie
+            animationData={vestingBar}
+            loop={false}
+            interactivity={interactivity}
+          />
         </div>
       </div>
       <div className={styles.sectionHeading}>
