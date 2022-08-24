@@ -7,3 +7,10 @@
     lg:w-[52.5rem]
     mx-auto;
 }
+
+.alloSwap {
+    @apply mx-auto
+    -mt-[6.5rem]
+    xl:-mt-[8rem]
+    xl:mr-[25rem];
+}

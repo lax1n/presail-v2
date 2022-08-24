@@ -40,7 +40,7 @@
 
 .tableMobile {
     @apply grid
-    w-[22.5rem]
+    w-[23.5rem]
     sm:w-[26rem]
     md:hidden;
 }
