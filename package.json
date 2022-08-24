@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@calcom/embed-react": "^1.0.9",
     "@types/react-lottie": "^1.2.6",
     "aos": "^2.3.4",
     "classnames": "^2.3.1",
