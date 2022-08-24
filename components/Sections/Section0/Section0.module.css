@@ -30,22 +30,30 @@
     xl:mt-[7.5rem];
 }
 
-.tableWidth {
-    @apply w-[22.5rem]
-    sm:w-[26rem]
+.tableDesktop {
+    @apply hidden
+    md:grid
     md:w-[36rem]
     lg:w-[42rem]
     xl:w-[48rem];
 }
 
+.tableMobile {
+    @apply grid
+    w-[22.5rem]
+    sm:w-[26rem]
+    md:hidden;
+}
+
 .notifications {
     @apply absolute
-    w-[150px]
-    md:w-[170px]
-    xl:w-[200px]
+    w-[170px]
+    md:w-[190px]
+    xl:w-[220px]
     top-0
-    right-0
-    sm:right-9;
+    right-24
+    sm:right-36
+    lg:right-5;
 }
 
 .socialProofDesktop {

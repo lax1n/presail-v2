@@ -26,8 +26,8 @@ const Section2 = () => {
         <div className={styles.collectContributionsWrapper} data-aos={'fade-left'}>
           <div className={styles.collectContributions}>
             <Image
-              alt={'Presail Collect Contributions'}
-              src='/images/Section2/CollectContributions.webp'
+              alt={'Presail Create Deal'}
+              src='/images/Section2/CreateDeal.svg'
               width={'367px'}
               height={'668px'}
             />
@@ -39,7 +39,7 @@ const Section2 = () => {
           <div className={styles.chartScroll}>
             <Image
               alt={'Presail Chart'}
-              src='/images/Section2/Flowchart.webp'
+              src='/images/Section2/Flowchart.svg'
               width={'965px'}
               height={'460px'}
             />

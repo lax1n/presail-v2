@@ -14,7 +14,7 @@ const Section3 = () => {
           <div className={styles.investorManager} data-aos={'fade-up'}>
             <Image
               alt={'Presail Investor Manager'}
-              src='/images/Section3/InvestorManager.webp'
+              src='/images/Section3/InvestorManager.svg'
               width={'520px'}
               height={'308px'}
               className={styles.scaleInvestorManager}
@@ -24,7 +24,7 @@ const Section3 = () => {
         <div className={styles.investorCard} data-aos={'fade-left'}>
           <Image
             alt={'Presail Investor Card'}
-            src='/images/Section3/InvestorCard.webp'
+            src='/images/Section3/InvestorCard.svg'
             width={'348px'}
             height={'412px'}
             className={styles.scaleInvestorCard}

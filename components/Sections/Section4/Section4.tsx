@@ -13,7 +13,7 @@ const Section4 = () => {
         <div className={styles.investorPortal} data-aos={'fade-left'}>
           <Image
             alt={'Presail Investor Portal'}
-            src='/images/Section4/InvestorPortal.webp'
+            src='/images/Section4/InvestorPortal.svg'
             width={'570'}
             height={'449'}
           />

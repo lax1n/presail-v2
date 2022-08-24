@@ -7,7 +7,8 @@ import Section from '@/components/Section/Section'
 import {useTranslation} from 'next-i18next'
 import styles from './Section0.module.css'
 import Lottie from 'lottie-react'
-import preSailTable from '@/public/images/Section0/PresailTable.json'
+import preSailTableDesktop from '@/public/images/Section0/PresailTableDesktop.json'
+import preSailTableMobile from '@/public/images/Section0/PresailTableMobile.json'
 import notifications from '@/public/images/Section0/Notifications.json'
 
 const Section0 = () => {
@@ -39,8 +40,11 @@ const Section0 = () => {
           </div>
         </div>
         <div className={styles.table}>
-          <div className={styles.tableWidth}>
-            <Lottie animationData={preSailTable} loop={true} />
+          <div className={styles.tableDesktop}>
+            <Lottie animationData={preSailTableDesktop} loop={true} />
+          </div>
+          <div className={styles.tableMobile}>
+            <Lottie animationData={preSailTableMobile} loop={true} />
           </div>
           <div className={styles.notifications}>
             <Lottie animationData={notifications} loop={false} />
