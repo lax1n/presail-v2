@@ -18,7 +18,7 @@ const Testimonial: React.FC<TestimonialProps> = (props) => {
       <div className={styles.quoteLeft}>
         <Image
           alt={''}
-          src='/images/QuoteLeft.svg'
+          src='/images/Other/QuoteLeft.svg'
           width={'20px'}
           height={'20px'}
         />
@@ -35,7 +35,7 @@ const Testimonial: React.FC<TestimonialProps> = (props) => {
           <div className={styles.quoteRight}>
             <Image
               alt={''}
-              src='/images/QuoteRight.svg'
+              src='/images/Other/QuoteRight.svg'
               width={'20px'}
               height={'20px'}
             />

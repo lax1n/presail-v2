@@ -59,9 +59,10 @@
     @apply font-buch
     text-graniteGray
     text-base
-    font-bold;
+    font-bold
+    w-60;
 }
 
 .logo {
-    @apply  ml-[9.5rem] sm:ml-[25.5rem] lg:ml-[36.5rem];
+    @apply sm:ml-[12rem] lg:ml-[24rem];
 }
