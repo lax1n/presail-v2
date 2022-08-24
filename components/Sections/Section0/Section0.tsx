@@ -8,7 +8,7 @@ import {useTranslation} from 'next-i18next'
 import styles from './Section0.module.css'
 import Lottie from 'lottie-react'
 import preSailTableDesktop from '@/public/images/Section0/PresailTableDesktop.json'
-import preSailTableMobile from '@/public/images/Section0/preSailTableMobile.json'
+import preSailTableMobile from '@/public/images/Section0/PreSailTableMobile.json'
 import notifications from '@/public/images/Section0/Notifications.json'
 
 const Section0 = () => {
