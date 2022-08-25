@@ -17,6 +17,7 @@ module.exports = {
         buch: '\'SoehneBuch\', sans',
         leicht: '\'SoehneLeicht\', sans',
         mono: '\'SoehneMonoLeicht\', sans',
+        halbfett: '\'SoehneHalbfett\', sans',
       },
       colors: {
         gunMetal: '#2F3239',

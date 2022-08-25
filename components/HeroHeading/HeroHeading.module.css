@@ -5,7 +5,7 @@
 }
 
 .title {
-    @apply font-kraftig
+    @apply font-halbfett
     text-gunMetal
     text-xl md:text-3xl
     pb-[0.938rem];
