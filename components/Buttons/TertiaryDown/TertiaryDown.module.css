@@ -1,7 +1,7 @@
 .wrapper {
     @apply mt-8
     hover:underline
-    text-xs
+    text-sm
     font-buch
     w-[10.5rem]
     inline-flex
