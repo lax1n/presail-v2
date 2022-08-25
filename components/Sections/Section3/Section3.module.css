@@ -1,64 +1,69 @@
-.sectionGrid {
-    @apply container
+.sectionGridMobile {
+    @apply
+    xs:hidden
+    container
     grid
     grid-cols-1
-    xl:grid-cols-2
     mt-5
-    xs:mt-0
-    xl:-mt-16
-    lg:mx-auto
-    -mb-20
-    xs:mb-0;
+    -mb-20;
 }
 
-.investorCard {
+.investorCardMobile {
     @apply relative
     overflow-hidden
     -mt-[25rem]
     -ml-[4.5rem]
-    xs:-mt-[6.5rem]
-    lg:-mt-[10rem]
-    xl:-mt-[16.5rem]
-    xl:ml-[8rem]
     mr-[6.5rem]
-    xs:mx-auto
-    xl:order-last
     order-first
     shrink-0
-    xs:right-0
     z-0;
 }
 
 .scaleInvestorCard {
-    @apply scale-[0.7]
-    xs:scale-100;
+    @apply scale-[0.7];
 }
 
-.investorManagerWrapper {
+.investorManagerWrapperMobile {
     @apply relative
-    xs:mx-auto
-    xl:scale-125
-    xl:-mt-10
     overflow-x-hidden
     overflow-y-hidden
-    order-first
-    xs:order-last;
+    order-first;
 }
 
-.investorManager {
+.investorManagerMobile {
     @apply relative
     overflow-x-clip
     overflow-y-clip
-    -right-[13.5rem]
-    xs:ml-[13rem]
-    xs:right-0;
+    -right-[13.5rem];
 }
 
 .scaleInvestorManager {
-    @apply scale-[1.15]
-    xs:scale-100
-    xl:scale-[1.1]
-    2xl:scale-100;
+    @apply scale-[1.15];
+}
+
+.flexGridDesktop {
+    @apply xl:flex;
+}
+
+.investorCardDesktop {
+    @apply hidden
+    xs:grid
+    mx-auto
+    -mt-[8rem]
+    md:-mt-[10rem]
+    xl:-mt-[21rem]
+    order-last
+    ml-4;
+}
+
+.investorManagerDesktop {
+    @apply hidden
+    xs:grid
+    mx-auto
+    md:max-w-full
+    xl:-mt-[7rem]
+    mr-5
+    order-1;
 }
 
 .sectionHeading {
