@@ -25,3 +25,9 @@
     font-weight: normal;
     src: url('./public/fonts/soehne-mono-leicht.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'SoehneHalbfett';
+    font-weight: normal;
+    src: url('./public/fonts/soehne-halbfett.woff2') format('woff2');
+}
