@@ -9,9 +9,9 @@ const Section3 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
-      <div className={styles.sectionGrid}>
-        <div  className={styles.investorManagerWrapper}>
-          <div className={styles.investorManager} data-aos={'fade-up'}>
+      <div className={styles.sectionGridMobile}>
+        <div  className={styles.investorManagerWrapperMobile}>
+          <div className={styles.investorManagerMobile} data-aos={'fade-up'}>
             <Image
               alt={'Presail Investor Manager'}
               src='/images/Section3/InvestorManager.svg'
@@ -21,13 +21,32 @@ const Section3 = () => {
             />
           </div>
         </div>
-        <div className={styles.investorCard} data-aos={'fade-left'}>
+        <div className={styles.investorCardMobile} data-aos={'fade-left'}>
           <Image
             alt={'Presail Investor Card'}
             src='/images/Section3/InvestorCard.svg'
             width={'348px'}
             height={'412px'}
             className={styles.scaleInvestorCard}
+          />
+        </div>
+      </div>
+      <div className={styles.flexGridDesktop}>
+        <div className={styles.investorCardDesktop}>
+          <Image
+            alt={'Presail Investor Card'}
+            src='/images/Section3/InvestorCard.svg'
+            width={'348px'}
+            height={'412px'}
+          />
+
+        </div>
+        <div className={styles.InvestorManagerDesktop}>
+          <Image
+            alt={'Presail Investor Manager'}
+            src='/images/Section3/InvestorManager.svg'
+            width={'694px'}
+            height={'413px'}
           />
         </div>
       </div>
