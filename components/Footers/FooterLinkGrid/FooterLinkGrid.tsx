@@ -1,5 +1,5 @@
 import React from 'react'
-import FooterLink from '@/components/FooterLink/FooterLink'
+import FooterLink from '@/components/Footers/FooterLink/FooterLink'
 import {useTranslation} from 'next-i18next'
 import styles from './FooterLinkGrid.module.css'
 

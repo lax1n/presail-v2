@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import Contact from '@/components/Contact/Contact'
-import Button from '@/components/Button/Button'
+import Contact from '@/components/People/Contact/Contact'
+import Button from '@/components/Buttons/Button/Button'
 import styles from './Avatar.module.css'
 import classNames from 'classnames'
 

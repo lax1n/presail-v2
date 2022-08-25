@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './SectionHeading.module.css'
-import TertiaryDown from '@/components/TertiaryDown/TertiaryDown'
+import TertiaryDown from '@/components/Buttons/TertiaryDown/TertiaryDown'
 import classNames from 'classnames'
 import {colorScheme} from '@/components/Section/Section'
 
