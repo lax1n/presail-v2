@@ -3,7 +3,8 @@
     xl:flex
     max-w-[26rem]
     md:max-w-[80rem]
-    mx-auto;
+    mx-auto
+    sm:-mt-8;
 }
 
 .logo {
@@ -32,17 +33,20 @@
 
 .tableDesktop {
     @apply hidden
-    md:grid
+    mx-auto
+    lg:grid
     md:w-[36rem]
     lg:w-[42rem]
-    xl:w-[48rem];
+    xl:w-[50rem];
 }
 
 .tableMobile {
     @apply grid
-    w-[23.5rem]
+    mx-auto
+    w-[20.5rem]
     sm:w-[26rem]
-    md:hidden;
+    md:w-[28rem]
+    lg:hidden;
 }
 
 .notifications {
@@ -52,8 +56,10 @@
     xl:w-[220px]
     top-0
     right-24
-    sm:right-36
-    lg:right-5;
+    sm:right-32
+    md:right-36
+    lg:right-28
+    lg:mt-28;
 }
 
 .socialProofDesktop {

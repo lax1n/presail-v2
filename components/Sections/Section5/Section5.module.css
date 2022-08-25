@@ -5,7 +5,7 @@
 }
 .securityBadgesDesktop {
     @apply hidden
-    sm:grid
+    lg:grid
     mx-auto
     -mt-[2.5rem]
     xs:-mt-[5rem];
@@ -13,12 +13,11 @@
 
 .securityBadgesMobile {
     @apply grid
-    sm:hidden
+    lg:hidden
     mx-auto
     -mt-[4rem];
 }
 
 .scoreScale {
-    @apply scale-125
-    xs:scale-100;
+    @apply scale-125;
 }

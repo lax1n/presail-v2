@@ -1,3 +1,7 @@
+.wrapper {
+    @apply xl:mx-auto;
+}
+
 .sectionHeading {
     @apply grid
     grid-cols-1
@@ -8,6 +12,10 @@
 .vestingBarWrapper {
     @apply relative
     mx-auto
+    xs:w-[27.5rem]
+    xs:h-[23.875rem]
+    xl:mr-[10rem]
+    xl:-mt-[17rem]
     max-w-md
     lg:max-w-full
     overflow-x-hidden

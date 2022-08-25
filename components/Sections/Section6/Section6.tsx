@@ -27,25 +27,27 @@ const Section6 = () => {
 
   return (
     <Section>
-      <div className={styles.vestingBarWrapper}>
-        <div className={styles.vestingBar}>
-          <Lottie
-            animationData={vestingBar}
-            loop={false}
-            interactivity={interactivity}
+      <div className={styles.wrapper}>
+        <div className={styles.vestingBarWrapper}>
+          <div className={styles.vestingBar}>
+            <Lottie
+              animationData={vestingBar}
+              loop={false}
+              interactivity={interactivity}
+            />
+          </div>
+        </div>
+        <div className={styles.sectionHeading}>
+          <SectionHeading
+            num={t('alloSwap.num')}
+            header={t('alloSwap.header')}
+            title={t('alloSwap.title')}
+            paragraph1={t('alloSwap.paragraph1')}
+            paragraph2={t('alloSwap.paragraph2')}
+            colorScheme={t('alloSwap.colorScheme')}
+            id={t('alloSwap.num')}
           />
         </div>
-      </div>
-      <div className={styles.sectionHeading}>
-        <SectionHeading
-          num={t('alloSwap.num')}
-          header={t('alloSwap.header')}
-          title={t('alloSwap.title')}
-          paragraph1={t('alloSwap.paragraph1')}
-          paragraph2={t('alloSwap.paragraph2')}
-          colorScheme={t('alloSwap.colorScheme')}
-          id={t('alloSwap.num')}
-        />
       </div>
       <div className={'mb-32'}></div>
     </Section>

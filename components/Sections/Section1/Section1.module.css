@@ -7,6 +7,8 @@
 
 .margin {
     @apply -mt-10
+    sm:mb-10
+    xl:mb-0
     xl:mt-0;
 }
 
@@ -24,8 +26,11 @@
     @apply relative
     overflow-x-clip
     -right-[5rem]
-    scale-125
-    xs:scale-100
     xs:right-0
     z-0;
+}
+
+.scale {
+    @apply scale-[1.3]
+    xs:scale-100;
 }

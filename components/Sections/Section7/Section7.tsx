@@ -9,21 +9,23 @@ const Section7 = () => {
   const { t } = useTranslation('common')
   return (
     <Section  colorScheme={'dark'}>
-      <div className={styles.alloSwap}>
-        <Image data-aos={'fade-left'}
-          alt={'Presail AlloSwap OTC'}
-          src={'/images/Section7/AlloSwapOTC.svg'}
-          width={'377px'}
-          height={'392px'}
-        />
-      </div>
-      <div className={styles.sectionHeading}>
-        <SectionHeading
-          header={t('bestOption.header')}
-          title={t('bestOption.title')}
-          paragraph1={t('bestOption.paragraph1')}
-          colorScheme={t('bestOption.colorScheme')}
-        />
+      <div className={styles.wrapper}>
+        <div className={styles.alloSwap}>
+          <Image data-aos={'fade-left'}
+            alt={'Presail AlloSwap OTC'}
+            src={'/images/Section7/AlloSwapOTC.svg'}
+            width={'377px'}
+            height={'392px'}
+          />
+        </div>
+        <div className={styles.sectionHeading}>
+          <SectionHeading
+            header={t('bestOption.header')}
+            title={t('bestOption.title')}
+            paragraph1={t('bestOption.paragraph1')}
+            colorScheme={t('bestOption.colorScheme')}
+          />
+        </div>
       </div>
     </Section>
   )
