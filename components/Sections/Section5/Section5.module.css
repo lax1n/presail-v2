@@ -11,6 +11,18 @@
     xs:-mt-[5rem];
 }
 
+.button {
+    @apply font-buch
+    text-xs
+    text-cultured
+    inline-flex
+    gap-3
+    items-end
+    mb-3
+    mt-3
+    ml-[50rem];
+}
+
 .securityBadgesMobile {
     @apply grid
     lg:hidden

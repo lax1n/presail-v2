@@ -4,6 +4,8 @@ import SectionHeading from '@/components/Headings/SectionHeading/SectionHeading'
 import {useTranslation} from 'next-i18next'
 import Image from 'next/image'
 import styles from './Section5.module.css'
+import {ArrowRight} from 'phosphor-react'
+import classNames from 'classnames'
 
 const Section5 = () => {
   const { t } = useTranslation('common')
@@ -17,6 +19,12 @@ const Section5 = () => {
           height={'160px'}
           className={styles.scoreScale}
         />
+        <div className={classNames('group', styles.button)}>
+          <button data-cal-link={'even-presail/30min'} data-cal-config={'/public/calconfig.json'}>
+            Schedule a demo
+          </button>
+          <ArrowRight size={16} className={'group-active:animate-moveRight'}/>
+        </div>
       </div>
       <div className={styles.securityBadgesMobile} data-aos={'zoom-in'}>
         <Image
