@@ -32,16 +32,15 @@ const Section3 = () => {
         </div>
       </div>
       <div className={styles.flexGridDesktop}>
-        <div className={styles.investorCardDesktop}>
+        <div className={styles.investorCardDesktop} data-aos={'fade-left'}>
           <Image
             alt={'Presail Investor Card'}
             src='/images/Section3/InvestorCard.svg'
             width={'348px'}
             height={'412px'}
           />
-
         </div>
-        <div className={styles.InvestorManagerDesktop}>
+        <div className={styles.investorManagerDesktop} data-aos={'fade-up'}>
           <Image
             alt={'Presail Investor Manager'}
             src='/images/Section3/InvestorManager.svg'

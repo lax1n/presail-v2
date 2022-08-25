@@ -56,7 +56,7 @@
     ml-4;
 }
 
-.InvestorManagerDesktop {
+.investorManagerDesktop {
     @apply hidden
     xs:grid
     mx-auto
