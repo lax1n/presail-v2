@@ -12,11 +12,20 @@
 .investorPortal {
     @apply relative
     overflow-x-clip
-    xl:ml-[36rem]
-    mt-5 xs:mt-0
-    -right-[5rem]
+    xl:ml-[21rem]
+    xl:mt-[10rem]
+    mt-12
+    xs:mt-0
+    -right-[2rem]
     xs:right-0
     z-0;
+}
+
+.investorPortalScale {
+    @apply scale-[1.3]
+
+    xs:scale-90
+    lg:scale-100;
 }
 
 .testimonial {

@@ -6,7 +6,7 @@
 }
 
 .margin {
-    @apply -mt-28
+    @apply -mt-6
     xl:mt-0;
 }
 
@@ -41,6 +41,7 @@
     @apply grid
     sm:hidden
     mx-auto
+    mt-7
     -mb-[12rem];
 }
 
