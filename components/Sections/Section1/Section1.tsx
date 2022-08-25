@@ -29,6 +29,7 @@ const Section1 = () => {
               src='/images/Section1/AllDeals.svg'
               width={'611'}
               height={'358'}
+              className={styles.scale}
             />
           </div>
         </div>

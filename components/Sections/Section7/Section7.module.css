@@ -1,16 +1,21 @@
+.wrapper {
+    @apply xl:mx-auto
+}
 .sectionHeading {
     @apply
     mb-[7rem]
     -mt-20
     xs:-mt-10
-    md:w-[48.5rem]
+    md:w-[47rem]
     lg:w-[52.5rem]
     mx-auto;
 }
 
 .alloSwap {
-    @apply mx-auto
+    @apply
+    mx-auto
+    max-w-md
     -mt-[6.5rem]
-    xl:-mt-[8rem]
-    xl:mr-[25rem];
+    xl:-mt-[12rem]
+    xl:ml-[25rem];
 }

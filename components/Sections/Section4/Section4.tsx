@@ -16,6 +16,7 @@ const Section4 = () => {
             src='/images/Section4/InvestorPortal.svg'
             width={'570'}
             height={'449'}
+            className={'scale-125 xs:scale-100'}
           />
         </div>
       </div>

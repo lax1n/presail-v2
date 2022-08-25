@@ -4,12 +4,11 @@ import Image from 'next/image'
 import Section from '@/components/Section/Section'
 import {useTranslation} from 'next-i18next'
 import styles from './Section2.module.css'
-import {ArrowRight} from 'phosphor-react'
 
 const Section2 = () => {
   const { t } = useTranslation('common')
   return (
-    <Section style={'static'}>
+    <Section>
       <div className={styles.sectionGrid}>
         <div className={styles.margin}>
           <SectionHeading
@@ -23,8 +22,8 @@ const Section2 = () => {
             id={t('collectContributions.num')}
           />
         </div>
-        <div className={styles.collectContributionsWrapper} data-aos={'fade-left'}>
-          <div className={styles.collectContributions}>
+        <div className={styles.collectContributionsWrapper}>
+          <div className={styles.collectContributions} data-aos={'fade-left'}>
             <Image
               alt={'Presail Create Deal'}
               src='/images/Section2/CreateDeal.svg'
@@ -34,7 +33,7 @@ const Section2 = () => {
           </div>
         </div>
       </div>
-      <div className={styles.supportedChainsDesktop}>
+      <div className={styles.supportedChainsDesktop} data-aos={'fade-up'}>
         <Image
           alt={'Presail Supported Chains'}
           src='/images/Section2/SupportedChainsDesktop.svg'
@@ -42,7 +41,7 @@ const Section2 = () => {
           height={'183px'}
         />
       </div>
-      <div className={styles.supportedChainsMobile}>
+      <div className={styles.supportedChainsMobile} data-aos={'fade-up'}>
         <Image
           alt={'Presail Supported Chains'}
           src='/images/Section2/SupportedChainsMobile.svg'

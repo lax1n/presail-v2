@@ -43,7 +43,7 @@
 .tableMobile {
     @apply grid
     mx-auto
-    w-[23.5rem]
+    w-[20.5rem]
     sm:w-[26rem]
     md:w-[28rem]
     lg:hidden;
