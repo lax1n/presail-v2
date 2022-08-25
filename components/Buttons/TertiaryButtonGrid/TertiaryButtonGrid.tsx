@@ -1,5 +1,5 @@
 import React from 'react'
-import TertiaryButton from '@/components/TertiaryButton/TertiaryButton'
+import TertiaryButton from '@/components/Buttons/TertiaryButton/TertiaryButton'
 import styles from './TertiaryButtonGrid.module.css'
 import {useTranslation} from 'next-i18next'
 
