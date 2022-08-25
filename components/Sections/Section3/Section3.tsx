@@ -15,8 +15,8 @@ const Section3 = () => {
             <Image
               alt={'Presail Investor Manager'}
               src='/images/Section3/InvestorManager.svg'
-              width={'624px'}
-              height={'370px'}
+              width={'867px'}
+              height={'516px'}
               className={styles.scaleInvestorManager}
             />
           </div>
