@@ -14,9 +14,9 @@ const Section4 = () => {
           <Image
             alt={'Presail Investor Portal'}
             src='/images/Section4/InvestorPortal.svg'
-            width={'570'}
-            height={'449'}
-            className={'scale-125 xs:scale-100'}
+            width={'752'}
+            height={'593'}
+            className={styles.investorPortalScale}
           />
         </div>
       </div>

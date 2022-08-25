@@ -12,13 +12,13 @@
     mt-12
     xl:mt-[9.5rem]
     mb-12
-    ml-[2.45rem]
+    ml-[1rem]
     xl:ml-0;
 }
 
 .margin {
     @apply mb-12
-    ml-[2.45rem]
+    ml-[1rem]
     xl:ml-0;
 }
 
@@ -26,7 +26,7 @@
     @apply order-first
     xl:order-last
     relative
-    mt-4
+    mt-[2.5rem]
     sm:mt-[5.5rem]
     xl:mt-[7.5rem];
 }
@@ -52,8 +52,8 @@
 .notifications {
     @apply absolute
     w-[170px]
-    md:w-[190px]
-    xl:w-[220px]
+    md:w-[220px]
+    xl:w-[260px]
     top-0
     right-24
     sm:right-32
