@@ -29,7 +29,7 @@
 .vestingBar {
     @apply relative
     overflow-x-clip
-    -right-[6.5rem]
+    -right-[3rem]
     xs:right-0
     z-0;
 }

@@ -22,9 +22,7 @@
 }
 
 .investorPortalScale {
-    @apply scale-[1.3]
-
-    xs:scale-90
+    @apply xs:scale-90
     lg:scale-100;
 }
 

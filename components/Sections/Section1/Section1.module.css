@@ -25,12 +25,12 @@
 .allDeals {
     @apply relative
     overflow-hidden
-    -right-[3.1rem]
+    -right-[2.5rem]
     xs:right-0
     z-0;
 }
 
 .scale {
-    @apply scale-[1.35]
+    @apply scale-[1.15]
     xs:scale-100;
 }
