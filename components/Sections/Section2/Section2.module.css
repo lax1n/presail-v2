@@ -33,7 +33,7 @@
     md:mb-0
     sm:grid
     xl:grid-cols-2
-    xl:-mt-[9rem]
+    xl:-mt-[11rem]
     mx-auto;
 }
 
@@ -49,6 +49,7 @@
     @apply hidden
     md:grid
     mt-[10rem]
+    xl:mt-[10rem]
     -mb-[10rem]
     mx-auto
     md:max-w-2xl
