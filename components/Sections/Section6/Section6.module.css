@@ -12,10 +12,10 @@
 .vestingBarWrapper {
     @apply relative
     mx-auto
-    xs:w-[27.5rem]
-    xs:h-[23.875rem]
+    xs:w-[36.3rem]
+    xs:h-[31.515rem]
     xl:mr-[10rem]
-    xl:-mt-[17rem]
+    xl:-mt-[10rem]
     max-w-md
     lg:max-w-full
     overflow-x-hidden
@@ -23,7 +23,7 @@
     -mt-[5rem]
     order-first
     -mb-10
-    xs:-mb-4;
+    xs:-mb-32 lg:-mb-10;
 }
 
 .vestingBar {
