@@ -12,13 +12,11 @@
     mt-12
     xl:mt-[9.5rem]
     mb-12
-    ml-[1rem]
     xl:ml-0;
 }
 
 .margin {
     @apply mb-12
-    ml-[1rem]
     xl:ml-0;
 }
 

@@ -18,6 +18,7 @@ module.exports = {
         leicht: '\'SoehneLeicht\', sans',
         mono: '\'SoehneMonoLeicht\', sans',
         halbfett: '\'SoehneHalbfett\', sans',
+        dreiviertelfett: '\'SoehneDreiviertelfett\', sans',
       },
       colors: {
         gunMetal: '#2F3239',

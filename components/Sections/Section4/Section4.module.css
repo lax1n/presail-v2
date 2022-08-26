@@ -22,7 +22,8 @@
 }
 
 .investorPortalScale {
-    @apply object-cover;
+    @apply object-cover
+    xs:object-fill;
 }
 
 .testimonial {

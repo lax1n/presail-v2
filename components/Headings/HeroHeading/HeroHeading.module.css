@@ -5,9 +5,10 @@
 }
 
 .title {
-    @apply font-halbfett
+    @apply font-dreiviertelfett
     text-gunMetal
-    text-xl md:text-3xl
+    text-xl
+    md:text-3xl
     pb-[0.938rem];
 }
 
@@ -22,5 +23,5 @@
     @apply bg-gradient-to-r
     from-orangeSoda
     to-ultramarineBlue
-    h-px;
+    h-0.5;
 }

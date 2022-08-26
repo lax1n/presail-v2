@@ -32,11 +32,10 @@
 }
 
 .title {
-    @apply font-leicht
+    @apply font-kraftig
     text-xl
     sm:text-2xl
     leading-none
-    font-bold
     mb-4;
 }
 
@@ -49,10 +48,10 @@
 }
 
 .paragraph {
-    @apply font-leicht
+    @apply font-buch
     text-gunMetal
     text-sm
-    sm:text-base;
+    xs:text-[0.938rem];
 }
 
 .headerLight {

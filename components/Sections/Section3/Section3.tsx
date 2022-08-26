@@ -11,8 +11,8 @@ const Section3 = () => {
     <Section colorScheme={'dark'}>
       <div className={styles.sectionGridMobile}>
         <div  className={styles.investorManagerWrapperMobile}>
-          <div className={styles.investorManagerMobile} data-aos={'fade-up'}>
-            <Image
+          <div className={styles.investorManagerMobile}>
+            <Image data-aos={'fade-up'}
               alt={'Presail Investor Manager'}
               src='/images/Section3/InvestorManager.svg'
               width={'867px'}
@@ -21,8 +21,8 @@ const Section3 = () => {
             />
           </div>
         </div>
-        <div className={styles.investorCardMobile} data-aos={'fade-left'}>
-          <Image
+        <div className={styles.investorCardMobile}>
+          <Image data-aos={'fade-left'}
             alt={'Presail Investor Card'}
             src='/images/Section3/InvestorCard.svg'
             width={'348px'}
@@ -32,16 +32,16 @@ const Section3 = () => {
         </div>
       </div>
       <div className={styles.flexGridDesktop}>
-        <div className={styles.investorCardDesktop} data-aos={'fade-left'}>
-          <Image
+        <div className={styles.investorCardDesktop}>
+          <Image  data-aos={'fade-left'}
             alt={'Presail Investor Card'}
             src='/images/Section3/InvestorCard.svg'
             width={'348px'}
             height={'412px'}
           />
         </div>
-        <div className={styles.investorManagerDesktop} data-aos={'fade-up'}>
-          <Image
+        <div className={styles.investorManagerDesktop}>
+          <Image data-aos={'fade-up'}
             alt={'Presail Investor Manager'}
             src='/images/Section3/InvestorManager.svg'
             width={'694px'}

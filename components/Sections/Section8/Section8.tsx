@@ -13,8 +13,8 @@ const Section8 = () => {
   const { t } = useTranslation('common')
   return (
     <Section>
-      <div className={styles.compliance} data-aos={'zoom-in'}>
-        <Image
+      <div className={styles.compliance} >
+        <Image data-aos={'zoom-in'}
           alt={'Presail Compliance'}
           src={'/images/Section8/Compliance.svg'}
           width={'514px'}
@@ -22,8 +22,8 @@ const Section8 = () => {
           className={'scale-125'}
         />
       </div>
-      <div className={styles.complianceMobile} data-aos={'zoom-in'}>
-        <Image
+      <div className={styles.complianceMobile}>
+        <Image data-aos={'zoom-in'}
           alt={'Presail Compliance'}
           src={'/images/Section8/ComplianceMobile.svg'}
           width={'144px'}

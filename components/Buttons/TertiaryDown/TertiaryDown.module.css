@@ -2,7 +2,8 @@
     @apply mt-8
     hover:underline
     text-sm
-    font-buch
+    xs:text-[0.938rem]
+    font-kraftig
     w-[10.5rem]
     inline-flex
     items-center

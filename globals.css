@@ -31,3 +31,9 @@
     font-weight: normal;
     src: url('./public/fonts/soehne-halbfett.woff2') format('woff2');
 }
+
+@font-face {
+    font-family: 'SoehneDreiviertelfett';
+    font-weight: normal;
+    src: url('./public/fonts/soehne-dreiviertelfett.woff2') format('woff2');
+}

@@ -23,8 +23,8 @@ const Section2 = () => {
           />
         </div>
         <div className={styles.collectContributionsWrapper}>
-          <div className={styles.collectContributions} data-aos={'fade-left'}>
-            <Image
+          <div className={styles.collectContributions}>
+            <Image data-aos={'fade-left'}
               alt={'Presail Create Deal'}
               src='/images/Section2/CreateDeal.svg'
               width={'502px'}
@@ -33,16 +33,16 @@ const Section2 = () => {
           </div>
         </div>
       </div>
-      <div className={styles.supportedChainsDesktop} data-aos={'fade-up'}>
-        <Image
+      <div className={styles.supportedChainsDesktop}>
+        <Image data-aos={'fade-up'}
           alt={'Presail Supported Chains'}
           src='/images/Section2/SupportedChainsDesktop.svg'
           width={'535px'}
           height={'183px'}
         />
       </div>
-      <div className={styles.supportedChainsMobile} data-aos={'fade-up'}>
-        <Image
+      <div className={styles.supportedChainsMobile}>
+        <Image data-aos={'fade-up'}
           alt={'Presail Supported Chains'}
           src='/images/Section2/SupportedChainsMobile.svg'
           width={'307px'}
@@ -50,8 +50,8 @@ const Section2 = () => {
           className={'object-cover'}
         />
       </div>
-      <div className={styles.chartWrapper}  data-aos={'zoom-in'}>
-        <Image
+      <div className={styles.chartWrapper}>
+        <Image  data-aos={'zoom-in'}
           alt={'Presail Chart'}
           src='/images/Section2/Flowchart.svg'
           width={'965px'}

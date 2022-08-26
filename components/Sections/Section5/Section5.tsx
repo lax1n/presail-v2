@@ -11,8 +11,8 @@ const Section5 = () => {
   const { t } = useTranslation('common')
   return (
     <Section colorScheme={'dark'}>
-      <div className={styles.securityBadgesDesktop} data-aos={'zoom-in'}>
-        <Image
+      <div className={styles.securityBadgesDesktop}>
+        <Image data-aos={'zoom-in'}
           alt={'Presail Security Badges'}
           src={'/images/Section5/SecurityBadgesHorizontal.svg'}
           width={'964px'}
@@ -26,8 +26,8 @@ const Section5 = () => {
           <ArrowRight size={16} className={'group-active:animate-moveRight'}/>
         </div>
       </div>
-      <div className={styles.securityBadgesMobile} data-aos={'zoom-in'}>
-        <Image
+      <div className={styles.securityBadgesMobile}>
+        <Image data-aos={'zoom-in'}
           alt={'Presail Security Badges'}
           src={'/images/Section5/SecurityBadgesVertical.svg'}
           width={'310px'}

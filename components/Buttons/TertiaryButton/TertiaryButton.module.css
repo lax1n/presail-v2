@@ -1,9 +1,10 @@
 .btn {
     @apply hover:underline
+    hover:font-halbfett
     text-gunMetal
     text-xs
     xs:text-sm
-    font-buch
+    font-kraftig
     w-[9rem]
     xs:w-[10.5rem]
     h-6
