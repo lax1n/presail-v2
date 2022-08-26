@@ -99,66 +99,9 @@
     "title": "Get in touch",
     "description": "The Presail team has over 50 years of experience in development, security, finance, and design. We strive to define how token management will work in web 3.0 at a root level and are proud to serve and be trusted by the best organizations."
   },
-  "avatar": {
-    "src": "/images/Backers/EvenPresail.svg",
-    "name": "Even Bergan Bugge",
-    "occupation": "Account Excecutive",
-    "telegram": "@pacyos",
-    "email": "even@presail.com"
-  },
-  "backerAvlok": {
-    "name": "Avlok Kohli",
-    "occupation": "CEO, AngelList Venture",
-    "backerImgSrc": "/images/Backers/AvlokKohli.svg",
-    "companyImgSrc": "/images/Backers/AngelList.svg",
-    "companyImgWidth":"103px",
-    "companyImgHeight":"14px",
-    "companyAlt": "AngelList logo"
-  },
-  "backerAleksander": {
-    "name": "Aleksander Larsen",
-    "occupation": "COO Sky Mavis / Axie Infinity",
-    "backerImgSrc": "/images/Backers/AleksanderLarsen.svg",
-    "companyImgSrc": "/images/Backers/SkyAxie.svg",
-    "companyImgWidth":"95px",
-    "companyImgHeight":"14px",
-    "companyAlt": "AxieInfinity"
-  },
   "captionBackers": {
     "title": "Presail backers",
     "description": "Presail is backed by <strong>Kraken Ventures, Global Founders Capital, Skyfall, Weekend Fund</strong>, the <strong>COO of Axie Infinity</strong>, and many more."
-  },
-  "companies": {
-    "weekendFund": {
-      "alt": "Weekend Fund",
-      "src": "/images/Companies/WeekendFund.svg",
-      "width": "160px",
-      "height": "32px"
-    },
-    "kraken": {
-      "alt": "Kraken Ventures",
-      "src": "/images/Companies/KrakenVentures.svg",
-      "width": "184px",
-      "height": "16px"
-    },
-    "sno": {
-      "alt": "SNO",
-      "src": "/images/Companies/sno.svg",
-      "width": "62px",
-      "height": "32px"
-    },
-    "skyfall": {
-      "alt": "Skyfall",
-      "src": "/images/Companies/Skyfall.svg",
-      "width": "160px",
-      "height": "40px"
-    },
-    "gfc": {
-      "alt": "GFC",
-      "src": "/images/Companies/GFC.svg",
-      "width": "59px",
-      "height": "24px"
-    }
   },
   "footer": {
     "date": "2022",
