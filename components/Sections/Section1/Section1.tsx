@@ -22,8 +22,8 @@ const Section1 = () => {
           />
         </div>
         <div className={styles.allDealsWrapper}>
-          <div className={styles.allDeals} data-aos='fade-up'>
-            <Image
+          <div className={styles.allDeals}>
+            <Image data-aos='fade-up'
               alt={'Presail All Deals'}
               src='/images/Section1/AllDeals.svg'
               width={'611'}

@@ -10,8 +10,8 @@ const Section4 = () => {
   return (
     <Section>
       <div className={styles.investorPortalWrapper}>
-        <div className={styles.investorPortal} data-aos={'fade-left'}>
-          <Image
+        <div className={styles.investorPortal}>
+          <Image data-aos={'fade-left'}
             alt={'Presail Investor Portal'}
             src='/images/Section4/InvestorPortal.svg'
             width={'752'}
