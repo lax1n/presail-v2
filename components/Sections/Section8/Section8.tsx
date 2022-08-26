@@ -28,7 +28,7 @@ const Section8 = () => {
           src={'/images/Section8/ComplianceMobile.svg'}
           width={'144px'}
           height={'416px'}
-          className={'scale-150'}
+          className={'object-cover'}
         />
       </div>
       <div className={styles.avatarGrid}>
