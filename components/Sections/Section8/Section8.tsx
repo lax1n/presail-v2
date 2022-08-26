@@ -37,11 +37,11 @@ const Section8 = () => {
           description={t('captionGetInTouch.description')}
         />
         <Avatar
-          src={t('avatar.src')}
-          name={t('avatar.name')}
-          occupation={t('avatar.occupation')}
-          telegram={t('avatar.telegram')}
-          email={t('avatar.email')}
+          src={'/images/Backers/EvenPresail.svg'}
+          name={'Even Bergan Bugge'}
+          occupation={'Account Excecutive'}
+          telegram={'@pacyos'}
+          email={'even@presail.com'}
         />
       </div>
       <div className={styles.smallCaption}>
@@ -53,22 +53,22 @@ const Section8 = () => {
       </div>
       <div className={styles.backerGrid}>
         <Backer
-          name={t('backerAvlok.name')}
-          occupation ={t('backerAvlok.occupation')}
-          backerImgSrc={t('backerAvlok.backerImgSrc')}
-          companyImgSrc={t('backerAvlok.companyImgSrc')}
-          companyImgWidth={t('backerAvlok.companyImgWidth')}
-          companyImgHeight={t('backerAvlok.companyImgHeight')}
-          companyImgAlt={t('backerAvlok.companyAlt')}
+          name={'Avlok Kohli'}
+          occupation ={'CEO, AngelList Venture'}
+          backerImgSrc={'/images/Backers/AvlokKohli.svg'}
+          companyImgSrc={'/images/Backers/AngelList.svg'}
+          companyImgWidth={'103px'}
+          companyImgHeight={'14px'}
+          companyImgAlt={'AngelList logo'}
         />
         <Backer
-          name={t('backerAleksander.name')}
-          occupation ={t('backerAleksander.occupation')}
-          backerImgSrc={t('backerAleksander.backerImgSrc')}
-          companyImgSrc={t('backerAleksander.companyImgSrc')}
-          companyImgWidth={t('backerAleksander.companyImgWidth')}
-          companyImgHeight={t('backerAleksander.companyImgHeight')}
-          companyImgAlt={t('backerAleksander.companyAlt')}
+          name={'Aleksander Larsen'}
+          occupation ={'COO Sky Mavis / Axie Infinity'}
+          backerImgSrc={'/images/Backers/AleksanderLarsen.svg'}
+          companyImgSrc={'/images/Backers/SkyAxie.svg'}
+          companyImgWidth={'95px'}
+          companyImgHeight={'14px'}
+          companyImgAlt={'AxieInfinity'}
         />
       </div>
       <Companies

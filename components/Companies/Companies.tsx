@@ -14,34 +14,34 @@ const Companies: React.FC<CompaniesProps> = (props) => {
 
   const companyData: { alt: string, src: string, width: string, height: string }[] = [
     {
-      alt: t('companies.weekendFund.alt'),
-      src: t('companies.weekendFund.src'),
-      width: t('companies.weekendFund.width'),
-      height: t('companies.weekendFund.height')
+      alt: 'Weekend Fund',
+      src: '/images/Companies/WeekendFund.svg',
+      width: '160px',
+      height: '32px'
     },
     {
-      alt: t('companies.kraken.alt'),
-      src: t('companies.kraken.src'),
-      width: t('companies.kraken.width'),
-      height: t('companies.kraken.height')
+      alt: 'Kraken Ventures',
+      src: '/images/Companies/KrakenVentures.svg',
+      width: '184px',
+      height: '16px'
     },
     {
-      alt: t('companies.sno.alt'),
-      src: t('companies.sno.src'),
-      width: t('companies.sno.width'),
-      height: t('companies.sno.height')
+      alt: 'SNO',
+      src: '/images/Companies/sno.svg',
+      width: '62px',
+      height: '32px'
     },
     {
-      alt: t('companies.skyfall.alt'),
-      src: t('companies.skyfall.src'),
-      width: t('companies.skyfall.width'),
-      height: t('companies.skyfall.height')
+      alt: 'Skyfall',
+      src: '/images/Companies/Skyfall.svg',
+      width: '160px',
+      height: '40px'
     },
     {
-      alt: t('companies.gfc.alt'),
-      src: t('companies.gfc.src'),
-      width: t('companies.gfc.width'),
-      height: t('companies.gfc.height')
+      alt: 'GFC',
+      src: '/images/Companies/GFC.svg',
+      width: '59px',
+      height: '24px'
     },
   ]
 
