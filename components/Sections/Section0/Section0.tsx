@@ -54,15 +54,15 @@ const Section0 = () => {
       <div className={styles.socialProofDesktop}>
         <Image
           alt={'Presail Social Proof'}
-          src='/images/Section0/socialProofHorizontal.svg'
+          src='/images/Section0/socialProofDesktop.svg'
           width={'726px'}
           height={'149px'}
         />
       </div>
       <div className={styles.socialProofMobile}>
         <Image
-          alt={'Presail Social Proof Vertical'}
-          src='/images/Section0/socialProofVertical.svg'
+          alt={'Presail Social Proof'}
+          src='/images/Section0/socialProofMobile.svg'
           width={'294px'}
           height={'402px'}
         />
