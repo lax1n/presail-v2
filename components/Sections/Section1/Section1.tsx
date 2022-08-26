@@ -16,7 +16,6 @@ const Section1 = () => {
             header={t('dealsManagement.header')}
             title={t('dealsManagement.title')}
             paragraph1={t('dealsManagement.paragraph1')}
-            paragraph2={t('dealsManagement.paragraph2')}
             buttonLink={t('dealsManagement.buttonLink')}
             colorScheme={t('dealsManagement.colorScheme')}
             id={t('dealsManagement.num')}

@@ -61,7 +61,7 @@ const Section3 = () => {
           id={t('investorPortal.num')}
         />
       </div>
-      <div className={'mb-[6.375rem]'}/>
+      <div className={'mb-[7.5rem] xs:mb-[9.5rem]'}/>
     </Section>
   )
 }
