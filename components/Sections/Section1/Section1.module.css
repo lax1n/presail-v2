@@ -31,6 +31,6 @@
 }
 
 .scale {
-    @apply scale-[1.15]
+    @apply object-cover
     xs:scale-100;
 }

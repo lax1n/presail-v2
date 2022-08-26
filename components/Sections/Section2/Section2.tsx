@@ -47,7 +47,7 @@ const Section2 = () => {
           src='/images/Section2/SupportedChainsMobile.svg'
           width={'307px'}
           height={'232px'}
-          className={'scale-125 xs:scale-100'}
+          className={'object-cover'}
         />
       </div>
       <div className={styles.chartWrapper}  data-aos={'zoom-in'}>

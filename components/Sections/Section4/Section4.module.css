@@ -22,8 +22,7 @@
 }
 
 .investorPortalScale {
-    @apply xs:scale-90
-    lg:scale-100;
+    @apply object-cover;
 }
 
 .testimonial {
